@@ -1,0 +1,33 @@
+.creator {
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #3B3B3B;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.creator__position {
+  color: #858584;
+}
+
+.creator__name {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.creator__avatar {
+  background-color: red;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.creator__change, .creator__number_sold{
+  display: none;
+}
