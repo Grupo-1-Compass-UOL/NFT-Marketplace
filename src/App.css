@@ -12,21 +12,10 @@ main {
   flex-direction: column;
 }
 
-.header-container {
-  display: flex;
-  padding: 15px 30px;
-  justify-content: space-between;
-  align-items: center;
-  align-self: stretch;
-}
+@media screen and (min-width: 1080px) {
+  main {
+    transition: opacity 0.3s ease;
+  }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
 
-.logo-title {
-  font-weight: 700;
-  font-size: 12px;
 }
