@@ -1,13 +1,15 @@
-import RocketLaunch from "../../../../assets/images/img/RocketLaunch"
+import RocketLaunch from "../../../../assets/images/img/RocketLaunch";
+import styled from "./style/HeroSection.module.css";
 
 function HeadlineSubheadButton() {
   return (
-    <div className="btn-headlinesubhead">
-        <button className="btn-headlinesubhead-1">Get Started
+    <div className={styled.btnheadlinesubhead}>
+      <button>
         <RocketLaunch />
-        </button>
+        Get Started
+      </button>
     </div>
-  )
+  );
 }
 
-export default HeadlineSubheadButton
+export default HeadlineSubheadButton;

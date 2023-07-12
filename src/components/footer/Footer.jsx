@@ -1,4 +1,4 @@
-import { Logo } from '../../assets/images/img/logoIcon';
+import { Logo } from '../logo/logo';
 import { IconDC } from '../../assets/images/img/iconDiscord';
 import { IconYT } from '../../assets/images/img/iconYoutube';
 import { IconTwitter } from '../../assets/images/img/iconTwitter';

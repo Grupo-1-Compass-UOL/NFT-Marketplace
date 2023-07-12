@@ -1,22 +1,24 @@
-import { MenuBurguer } from '../img/menuBurguer'
-import { IconUser } from '../img/iconUser'
+import { MenuBurguer } from '../../assets/images/img/menuBurguer'
+import { IconUser } from '../../assets/images/img/iconUser'
 import { Logo } from '../logo/logo'
 
-import headerStyles from './header.module.css';
+import Styles from './Header.module.css';
 
-export function Header() {
+function Header() {
     return (
-        <header className={headerStyles.headerContainer}>
+        <header className={Styles.headerContainer}>
             <Logo />
-            <nav className={headerStyles.menuHeader}>
+            <nav className={Styles.menuHeader}>
                 <a>Marketplace</a>
                 <a href="">Rankings</a>
                 <a href="">Connect a wallet</a>
-                <button className={headerStyles.btnMenu}> <IconUser />Sign up</button>
+                <button className={Styles.btnMenu}> <IconUser />Sign up</button>
             </nav>
-            <div className={headerStyles.menuBurguer}>
+            <div className={Styles.menuBurguer}>
                 <MenuBurguer />
             </div>
         </header >
     );
 }
+
+export default Header
