@@ -1,11 +1,12 @@
 import {TopCreatorList} from '../components/TopCreatorList';
+import styles from './Rankings.module.css';
 
 const creators = [
   {
     position: 1,
     image: {
-        src: "",
-        alt: ""
+      src: "",
+      alt: ""
     },
     name: "John Doe",
     change: "+10%",
@@ -15,8 +16,8 @@ const creators = [
   {
     position: 2,
     image: {
-        src: "",
-        alt: ""
+      src: "",
+      alt: ""
     },
     name: "Jane Smith",
     change: "-5%",
@@ -26,8 +27,8 @@ const creators = [
   {
     position: 3,
     image: {
-        src: "",
-        alt: ""
+      src: "",
+      alt: ""
     },
     name: "Jane Smith",
     change: "-5%",
@@ -37,8 +38,8 @@ const creators = [
   {
     position: 4,
     image: {
-        src: "",
-        alt: ""
+      src: "",
+      alt: ""
     },
     name: "Jane Smith",
     change: "-5%",
@@ -49,7 +50,13 @@ const creators = [
 
 const Rankings = () => {
   return (
-        <TopCreatorList creators={creators} />
+    <>
+      <div className={styles.headline}>
+        <h1>Top Creators</h1>
+        <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
+      </div>
+      <TopCreatorList creators={creators} />
+    </>
   )
 }
 
