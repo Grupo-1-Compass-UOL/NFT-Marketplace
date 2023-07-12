@@ -35,6 +35,7 @@
 
 .creator__avatar {
   background-color: red;
+  padding: 0.75rem;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
