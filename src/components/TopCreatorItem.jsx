@@ -8,7 +8,9 @@ const TopCreatorItem = (props) => {
     <li className={styles.creator}>
       <div className={styles.creator__position}>{position}</div>
       <div className={styles.creator__card}>
-        <div className={styles.creator__avatar}>{image}</div>
+        <div className={styles.creator__avatar}>
+          <img src={image.src} alt={image.alt} />
+        </div>
         <div className={styles.creator__name}>{name}</div>
       </div>
       <div className={styles.creator__change}>{change}</div>
@@ -20,7 +22,7 @@ const TopCreatorItem = (props) => {
 
 TopCreatorItem.propTypes = {
   position: PropTypes.number.isRequired,
-  image: PropTypes.element.isRequired,
+  image: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
   change: PropTypes.string.isRequired,
   numberSold: PropTypes.number.isRequired,
