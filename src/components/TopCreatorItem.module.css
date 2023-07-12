@@ -13,11 +13,24 @@
 }
 
 .creator__position {
+  display: flex;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
   color: #858584;
+}
+
+.creator__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 .creator__name {
   font-family: 'Work Sans', sans-serif;
+  max-width: 10rem;
+  width: 100%;
 }
 
 .creator__avatar {
@@ -30,4 +43,26 @@
 
 .creator__change, .creator__number_sold{
   display: none;
+}
+
+.positive__change {
+  color: #00FF00;
+}
+
+.negative__change {
+  color: #FF0000;
+}
+
+@media screen and (min-width: 768px) {
+
+    .creator__change{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .creator__number_sold {
+        display: block;
+    }
+
 }
