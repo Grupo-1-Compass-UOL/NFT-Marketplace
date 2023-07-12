@@ -7,7 +7,7 @@ import headerStyles from './header.module.css';
 export function Header() {
     return (
         <header className={headerStyles.headerContainer}>
-            <Logo />
+            <Logo isFooter={false} />
             <nav className={headerStyles.menuHeader}>
                 <a>Marketplace</a>
                 <a href="">Rankings</a>

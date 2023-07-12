@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export function Logo(props) {
     return (
         <div className={logoStyles.logoContainer}>
-            <LogoIcon />
+            <LogoIcon isFooter={props.isFooter} />
             <img src="./nav-nav-storefront" alt="" />
             <h5 className={props.isFooter ? `${logoStyles.logoTitle} ${footerTitleStyles.footerTitle}` : logoStyles.logoTitle}>
                 NFT Marketplace
