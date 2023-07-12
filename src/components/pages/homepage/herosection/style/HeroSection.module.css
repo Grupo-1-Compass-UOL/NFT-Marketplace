@@ -1,0 +1,17 @@
+.herosection{
+    display: flex;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+    background: var(--background, #2B2B2B);
+}
+
+.herosectionframe{
+    display: flex;
+    width: 315px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
