@@ -4,3 +4,13 @@
   width: 100%;
   padding: 0 3rem;
 }
+@media (min-width: 768px) {
+  .top_creators {
+    padding: 0 6rem;
+  }
+}
+@media (min-width: 1024px) {
+  .top_creators {
+    padding: 0 9.5rem;
+  }
+}
