@@ -22,12 +22,14 @@
 }
 
 .footerContent {
+    width: 100%;
     display: flex;
-    padding: 40px 195px;
+    padding: 15px 30px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
     align-self: stretch;
+    background-color: #3B3B3B;
 }
 
 .footerInfo {
@@ -41,6 +43,11 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
+}
+
+.footerLogoIcon {
+    width: 32px;
+    height: 32px;
 }
 
 .btnFooter {
@@ -83,8 +90,6 @@
     margin-bottom: 20px;
 }
 
-
-
 .footerMessage {
     color: #CCC;
     font-size: 12px;
@@ -100,51 +105,58 @@
     .footerLine {
         width: 690px;
     }
-}
-
-@media screen and (min-width: 1080px) {
-    .footerInfo {
-        width: 1049px;
-        justify-content: space-around;
-        flex-direction: row;
-        gap: 84px;
-    }
-
-    .footerContainer {
-        gap: 25px;
-        text-align: left;
-    }
-
-    .footerContent {
-        max-width: 1280px;
-        align-items: center;
-        padding: 40px 0;
-    }
-
-    .footerLine {
-        width: 1049px;
-        margin-bottom: 30px;
-        height: 1px;
-        background: #858584;
-        border: none;
-    }
 
     .inputContainer {
         position: relative;
     }
 
     .inputFooter {
-        width: 400px;
+        width: 420px;
+        height: 60px;
     }
 
     .inputContainer button {
         position: absolute;
-        left: 73%;
+        left: 63%;
     }
 
     .btnFooter {
         width: 160px;
+        height: 60px;
         text-align: center;
     }
 
+
+    .footerContainer {
+        max-width: 690px;
+        gap: 25px;
+    }
+
+    .footerContent {
+        align-items: flex-start;
+        padding: 40px 75px;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    .footerInfo {
+        max-width: 1049px;
+        flex-direction: row;
+        gap: 84px;
+    }
+
+    .footerContainer {
+
+        gap: 25px;
+    }
+
+    .footerContent {
+        align-items: center;
+    }
+
+    .footerLine {
+        width: 1049px;
+        margin-bottom: 30px;
+    }
 }
