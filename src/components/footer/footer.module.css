@@ -68,6 +68,11 @@
     border: none;
 }
 
+.footerContainer button:hover {
+    transform: scale(0.9);
+}
+
+
 .inputFooter {
     display: flex;
     width: 315px;
@@ -111,13 +116,13 @@
     }
 
     .inputFooter {
-        width: 420px;
+        width: 400px;
         height: 60px;
     }
 
     .inputContainer button {
         position: absolute;
-        left: 63%;
+        left: 60%;
     }
 
     .btnFooter {
@@ -143,12 +148,8 @@
     .footerInfo {
         max-width: 1049px;
         flex-direction: row;
-        gap: 84px;
-    }
-
-    .footerContainer {
-
-        gap: 25px;
+        justify-content: space-between;
+        gap: 120px;
     }
 
     .footerContent {
@@ -156,8 +157,23 @@
     }
 
     .footerLine {
-        width: 1049px;
+        width: 1149px;
         margin-bottom: 30px;
+    }
+
+    .footerMarketplace {
+        max-width: 253px;
+        gap: 30px;
+    }
+
+    .footerExplore {
+        max-width: 240px;
+        gap: 25px;
+    }
+
+    .footerSubscribe {
+        max-width: 340px;
+        gap: 25px;
     }
 
 

@@ -14,7 +14,7 @@ export function Footer() {
     return (
         <div className={footerStyles.footerContent} >
             <div className={footerStyles.footerInfo}>
-                <div className={footerStyles.footerContainer}>
+                <div className={`${footerStyles.footerContainer} ${footerStyles.footerMarketplace}`}>
                     <Logo isFooter={true} />
                     <FooterText text="NFT marketplace UI created with Anima for Figma" />
                     <FooterText text=" Join our community" />
@@ -25,7 +25,7 @@ export function Footer() {
                         <IconIntagram />
                     </div>
                 </div>
-                <div className={footerStyles.footerContainer}>
+                <div className={`${footerStyles.footerContainer} ${footerStyles.footerExplore}`}>
                     <FooterTitle title="Explore" />
                     <div className={footerStyles.footerContainer}>
                         <FooterText text='Marketplace' />
@@ -33,7 +33,7 @@ export function Footer() {
                         <FooterText text='Connect a wallet' />
                     </div>
                 </div>
-                <div className={footerStyles.footerContainer}>
+                <div className={`${footerStyles.footerContainer} ${footerStyles.footerSubscribe}`}>
                     <FooterTitle title='Join our weekly digest' />
                     <FooterText text='Get exclusive promotions & updates straight to your inbox.' />
                     <div className={`${footerStyles.footerContainer} ${footerStyles.inputContainer}`}>
