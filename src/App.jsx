@@ -1,16 +1,20 @@
 import './App.css';
-import { Header } from './components/header/header';
-import { Footer } from './components/footer/footer';
 import Rankings from './pages/Rankings';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {RootLayout} from './pages/Root';
+
+const BrowserRouter = createBrowserRouter([
+  {
+    path: '/', element: <RootLayout/>, children: [
+      {path: '/', element: <Rankings />},
+      {path: '/rankings', element: () => <Rankings />},
+    ],
+  },
+]);
+
 
 function App() {
-  return (
-    <main>
-      <Header />
-      <Rankings />
-      <Footer />
-    </main>
-  )
+  return <RouterProvider router={BrowserRouter} />;
 }
 
 export default App;
