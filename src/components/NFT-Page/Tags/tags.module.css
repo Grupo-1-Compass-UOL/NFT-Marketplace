@@ -1,0 +1,24 @@
+.h5{
+    color: #858584;
+
+/* H5 - Work Sans */
+font-family: Work Sans;
+font-size: 1.375rem;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+text-transform: capitalize;
+
+}
+.tag{
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    align-self: stretch;
+    list-style: none;
+   
+}
+.custom-button{
+    width: 50px;
+    background-color: #3B3B3B;
+}

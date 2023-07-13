@@ -1,0 +1,55 @@
+
+.container{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+}
+.timer{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+.digit{
+    color: var(--text, #FFF);
+
+    /* H3 - Space Mono */
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+}
+.auction{
+    color: var(--text, #FFF);
+    /* Caption - Space Mono */
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+/*Work Sans*/
+
+.btn_timer{
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #A259FF;
+
+}
