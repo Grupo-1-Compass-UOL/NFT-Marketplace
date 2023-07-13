@@ -34,7 +34,9 @@
 }
 
 .creator__avatar {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0.75rem;
   width: 1.5rem;
   height: 1.5rem;
@@ -42,7 +44,14 @@
   overflow: hidden;
 }
 
-.creator__change, .creator__number_sold{
+.creator__avatar > img {
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: cover;
+}
+
+.creator__change,
+.creator__number_sold {
   display: none;
 }
 
@@ -56,14 +65,14 @@
 
 @media screen and (min-width: 768px) {
 
-    .creator__change{
-        display: block;
-    }
+  .creator__change {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .creator__number_sold {
-        display: block;
-    }
+  .creator__number_sold {
+    display: block;
+  }
 
 }

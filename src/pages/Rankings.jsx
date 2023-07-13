@@ -8,10 +8,10 @@ for (let i = 0; i < 20; i++) {
   let obj = {
     position: i + 1,
     image: {
-      src: "",
-      alt: ""
+      src: "/src/assets/images/avatar/avatar.png",
+      alt: "Marcus Saris"
     },
-    name: "Jane Smith",
+    name: "Marcus Saris",
     change: "+1.41%",
     numberSold: 602,
     volumeSold: "12.4 ETH"
