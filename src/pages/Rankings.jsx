@@ -1,5 +1,5 @@
 import TabBar from '../components/TabBar/TabBar';
-import {TopCreatorList} from '../components/TopCreatorList';
+import {TopCreatorList} from '../components/TopCreatorList/TopCreatorList';
 import styles from './Rankings.module.css';
 
 const creators = [];
