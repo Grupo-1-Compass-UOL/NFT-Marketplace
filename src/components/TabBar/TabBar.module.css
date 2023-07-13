@@ -1,0 +1,39 @@
+.tab_bar {
+  padding: 0 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.tab_bar > li {
+  padding: 0 1rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tab_bar > li:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  margin-top: 5px;
+}
+
+.tab_bar > .active:after {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #858584;
+  margin-top: 5px;
+}

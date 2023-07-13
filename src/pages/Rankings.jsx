@@ -1,3 +1,4 @@
+import TabBar from '../components/TabBar/TabBar';
 import {TopCreatorList} from '../components/TopCreatorList';
 import styles from './Rankings.module.css';
 
@@ -55,6 +56,7 @@ const Rankings = () => {
         <h1>Top Creators</h1>
         <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
       </div>
+      <TabBar tabs={['1d', '7d', '30d', 'All Time']} defaultTab="Top Sellers" />
       <TopCreatorList creators={creators} />
     </>
   )
