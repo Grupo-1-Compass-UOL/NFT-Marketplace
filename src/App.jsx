@@ -7,7 +7,7 @@ const BrowserRouter = createBrowserRouter([
   {
     path: '/', element: <RootLayout/>, children: [
       {path: '/', element: <Rankings />},
-      {path: '/rankings', element: () => <Rankings />},
+      {path: '/rankings', element: <Rankings />},
     ],
   },
 ]);
