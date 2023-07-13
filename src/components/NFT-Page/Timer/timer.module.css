@@ -51,5 +51,8 @@
     align-self: stretch;
     border-radius: 20px;
     background: #A259FF;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
 
 }

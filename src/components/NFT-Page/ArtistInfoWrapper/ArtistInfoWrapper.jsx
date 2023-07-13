@@ -1,12 +1,12 @@
 import React from 'react';
-import avatarNFT from '../../../assets/images/avatar/avatarNFT.png';
+
 import classes from './artistinfowrapper.module.css';
+import Avatar from '../Avatar/Avatar';
 
 const ArtistInfoWrapper = () => {
-  const [nftName, mintedInfo, creatorInfo, descriptionInfo] = [
+  const [nftName, mintedInfo, descriptionInfo] = [
     { NFTname: 'The Orbitians' },
     { minted: 'Minted on Sep 30, 2022' },
-    { creator: 'Orbitian', avatar: avatarNFT },
         {
             description:
               'is a collection of 10,000 unique NFTs on the Ethereum blockchain,<br /> <br />' +
@@ -18,7 +18,6 @@ const ArtistInfoWrapper = () => {
 
   const { NFTname } = nftName;
   const { minted } = mintedInfo;
-  const { creator, avatar } = creatorInfo;
   const { description } = descriptionInfo;
 
 
@@ -30,8 +29,7 @@ const ArtistInfoWrapper = () => {
         <div className={classes.additional_info}>
             <h5 className={classes.h5}>Created By</h5>
             <figure  className={classes.artist_card}>
-                <img src={avatar} alt="Artist Avatar" className={classes.avatar} />
-                <figcaption className={classes.avatar_name}>{creator}</figcaption>
+                <Avatar/>
             </figure>
             <div className={classes.description}>
           <h5 className={classes.h5}>Description</h5>

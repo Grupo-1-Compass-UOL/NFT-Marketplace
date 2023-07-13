@@ -1,8 +1,35 @@
+
+.avatarContainer{
+  display: flex;
+  align-items: center;
+}
+.creator{
+  color: #FFF;
+  font-family: Work Sans;
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  text-transform: capitalize;
+
+}
+
 .avatar {
-    background-image: url(../../../static/img/avatar-placeholder-21.png);
+    background-image: url(../../../assets/images/avatar/avatarNFT.png);
     background-position: 50% 50%;
     background-size: cover;
-    height: 120px;
-    width: 120px;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
   }
   
+@media(max-width: 375px){
+  .avatar{
+  background-image: url(../../../assets/images/avatar/avatarNFT2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  }
+}

@@ -1,10 +1,16 @@
 import React from 'react'
 import classes from './avatar.module.css'
 
-const Avatar = ({className}) => {
+
+const Avatar = () => {
+
+const creator = 'Orbitian';
+
   return (
-    <div className={classes.avatar}
-    />
+    <div className={classes.avatarContainer}>
+      <div className={classes.avatar}/>
+      <p className={classes.creator}>{creator}</p>
+    </div>
   )
 }
 

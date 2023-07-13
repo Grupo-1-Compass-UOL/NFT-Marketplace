@@ -44,8 +44,10 @@ const Timer = () => {
           <h3 className={classes.digit}>{time.minutes.toString().padStart(2, '0')}: </h3>
           <h3 className={classes.digit}> {time.seconds.toString().padStart(2, '0')}  </h3>
           </div>
-      {!startTimer && <button onClick={handleStartTimer} className={classes.btn_timer}>Place Bid</button>}
+    
+          {!startTimer && <button onClick={handleStartTimer} className={classes.btn_timer}>Place Bid</button>}
       {startTimer && <button onClick={handleStopTimer} className={classes.btn_timer}>Stop</button>}
+      
     </div>
   );
 };

@@ -22,3 +22,22 @@ text-transform: capitalize;
     width: 50px;
     background-color: #3B3B3B;
 }
+
+@media (max-width: 834px){
+    .tag{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+}
+
+@media( max-width: 375px){
+    .tag{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+ 
+    }
+}

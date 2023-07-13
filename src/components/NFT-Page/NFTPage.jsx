@@ -2,19 +2,23 @@ import React from 'react'
 import classes from './nft_page.module.css'
 import ArtistInfo from './ArtistInfo/ArtistInfo'
 import { Header } from '../header'
-import {Footer} from '../footer'
+import ImagePlaceHolder from './ImagePlaceHolder/ImagePlaceHolder'
+
 
 
 const NFTPage = () => {
   return (
     <div className={classes.NFTPagedesktop}>
-        <Header/>
-        <main className={classes.NFT_page}>
-          <div className={classes.BannerNFT}  alt="header/banner NFTPage" />
-          <div className={classes.BannerNFTMobile} alt="banner mobile" />
-          <ArtistInfo/>
-        </main>
-        <Footer/>
+        <div className={classes.NFTPageMobile}>
+          <header className={classes.header}>
+            <Header/>
+            <ImagePlaceHolder/>
+          </header>
+          <main className={classes.main}>
+            <ArtistInfo/>
+            
+          </main>
+        </div>
     </div>
  
 )

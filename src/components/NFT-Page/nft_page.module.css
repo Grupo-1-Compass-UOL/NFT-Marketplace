@@ -1,39 +1,23 @@
 :root{
-    background:#2B2B2B;
+    --background:#2B2B2B;
+    --white: #fff;
+    --caption-label-text: #858584;
 }
 
+html{
+    font-size: 82.8%;
+}
 
 
 .NFTPagedesktop{
-    align-items: flex-start;
     background-color: var(--background);
-    border: 1px none;
-    display: flex;
-    flex-direction: column;
-    min-width: 1280px;
-    position: relative;
+
 }
 
-
-.NFT_page{
+.main{
     width: 100%;
 }
 
-.BannerNFT{
-    background-image: url(../../assets/images/bannerNFTPage.jpg);
-    width: 100%;
-    height: 560px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-
-}
-
-.BannerNFTMobile {
-    height: 340px ;
-    background-color: url(../../assets/images/bannerNFTPage_mobile.jpg);
-    display: none;
-}
 
 
 @media (max-width: 834px){
@@ -41,6 +25,14 @@
 }
 
 @media screen and (max-width: 375px) {
+    .NFTPagedesktop{
+        display: flex;
+        width: 100%;
+        padding: 40px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
     .BannerNFT{
         display: none;
     }

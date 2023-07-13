@@ -1,8 +1,4 @@
-:root{
-    --white: #fff;
-    --caption-label-text: #858584;
-    --background: #2B2B2B;
-}
+
 .artist_info{
     width: 90%;
     display: flex;
@@ -56,19 +52,36 @@
 }
 
 @media (max-width: 834px){
-
+    .artist_info{
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 10%;
+    }
+    .timer{
+        align-self: flex-end;
+    }
+    .NFTInfo{
+        display: flex;
+        flex-direction: column;
+            width: 100%;
+        }
  
 }
 
 @media(max-width: 375px) {
+  
     .artist_info{
         display: flex;
         flex-direction: column-reverse;
-        background-color: blue;
-        align-items: center;
+        margin: 10%;
     }
     .timer{
         align-self: center;
+    }
+    .NFTInfo{
+    display: flex;
+    flex-direction: column;
+        width: 100%;
     }
     
 }
