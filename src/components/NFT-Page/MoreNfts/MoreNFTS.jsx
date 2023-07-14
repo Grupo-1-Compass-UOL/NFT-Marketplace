@@ -6,9 +6,10 @@ import Button from '../Button/Button'
 const MoreNFTS = () => {
   return (
   <section className={classes.MoreNFTS}>
-    <div className={classes.title}>
-        <h1>More from this artist</h1>
-        <Button 
+    
+    <div className={classes.btnContainer}>
+
+      <Button
           border ='solid 3px #A259FF'
           width = '268px'
           height ='60px'
@@ -16,6 +17,7 @@ const MoreNFTS = () => {
           text='Go To Artist Page'
         />
     </div>
+
     <ListCards/>
 
   </section>

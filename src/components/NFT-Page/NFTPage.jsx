@@ -10,7 +10,6 @@ import MoreNFTS from './MoreNfts/MoreNFTS'
 const NFTPage = () => {
   return (
     <div className={classes.NFTPagedesktop}>
-        <div className={classes.NFTPageMobile}>
           <header className={classes.header}>
             <Header/>
             <ImagePlaceHolder/>
@@ -18,11 +17,12 @@ const NFTPage = () => {
           <main className={classes.main}>
             <ArtistInfo/>
             <MoreNFTS/>
-            
           </main>
+          <footer>
+
+            
+          </footer>
         </div>
-    </div>
- 
 )
 }
 

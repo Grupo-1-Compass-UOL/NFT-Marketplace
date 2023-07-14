@@ -1,7 +1,14 @@
 import React from 'react';
 import classes from './cardnft.module.css';
 
-const CardNFT = ({ title, image, price, bid, avatar, creator }) => {
+const CardNFT = ({ 
+  title, 
+  image,
+  price, 
+  bid, 
+  backgroundColor,
+  avatar, 
+  creator }) => {
 
   const imageStyle = {
     width: '330px',
@@ -11,6 +18,7 @@ const CardNFT = ({ title, image, price, bid, avatar, creator }) => {
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
+
   };
 
   const avatarImage = {
@@ -23,10 +31,13 @@ const CardNFT = ({ title, image, price, bid, avatar, creator }) => {
     marginRight: '10px',
   }
 
+  const backgroundCard = {
+      backgroundColor : backgroundColor,
+  }
 
 
   return (
-    <div className={classes.cardContainer}>
+    <div className={classes.cardContainer} style={backgroundCard} >
       <div style={imageStyle}></div>
       <div className={classes.cardInfoContainer}>
       <h2 className={classes.NftName}>{title}</h2>

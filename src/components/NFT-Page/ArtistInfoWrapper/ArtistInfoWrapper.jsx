@@ -23,13 +23,13 @@ const ArtistInfoWrapper = () => {
 
   return (
     <>
-        <h2 className={classes.artist_name}>{NFTname}</h2>
+        <h2 className={classes.NFT_name}>{NFTname}</h2>
         <p className={classes.minted}>{minted}</p>
         <div className={classes.additional_info}>
             <h5 className={classes.h5}>Created By</h5>
             <figure className={classes.artist_card}>
               <div className={classes.avatar} alt="img avatar" />
-               <figcaption>{creator}</figcaption>
+               <figcaption className={classes.creator}>{creator}</figcaption>
             </figure>
             <div className={classes.description}>
           <h5 className={classes.h5}>Description</h5>

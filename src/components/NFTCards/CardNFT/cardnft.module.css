@@ -1,7 +1,6 @@
 .cardContainer{
     width: 330px;
     height: 440px;
-    background-color: #3b3b3b;
     align-items: center;
     border-radius: 20px;
     flex-direction: column;

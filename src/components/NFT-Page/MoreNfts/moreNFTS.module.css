@@ -1,11 +1,29 @@
 
 .MoreNFTS{
     width: 90%;
+    padding: 20px;
 }
 
-.title{
+
+
+.btnContainer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
+    justify-content: end;
+    z-index: 0;
+
 }
+
+  
+@media screen and (max-width: 610px) {
+
+    .titleMoreNFT{
+        display: none;
+
+    }
+
+    .MoreNFTS{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+  }
