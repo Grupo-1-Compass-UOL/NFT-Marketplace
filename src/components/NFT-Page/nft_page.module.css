@@ -21,8 +21,26 @@ html{
 
 
 @media (max-width: 834px){
+    html{
+        font-size: 75.8%;
+    }
 
 }
+
+  
+@media screen and (max-width: 610px) {
+
+    .titleMoreNFT{
+        display: none;
+
+    }
+
+    .MoreNFTS{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+  }
 
 @media screen and (max-width: 375px) {
     .NFTPagedesktop{
@@ -43,3 +61,4 @@ html{
 
 
 }
+

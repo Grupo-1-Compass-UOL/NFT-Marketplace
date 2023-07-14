@@ -9,9 +9,9 @@
   .titleMoreNFT{
     display: flex;
     font-family: Work Sans;
-    font-size: 28px;
+    font-size: 2.2rem;
     font-weight: 600;
-    line-height: 39px;
+    line-height: 3rem;
     letter-spacing: 0em;
     text-align: left;
     z-index: 1;
@@ -45,3 +45,5 @@
   
   
   }
+
+ 

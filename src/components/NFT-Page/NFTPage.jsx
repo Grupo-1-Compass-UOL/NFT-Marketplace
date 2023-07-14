@@ -20,7 +20,6 @@ const NFTPage = () => {
           </main>
           <footer>
 
-            
           </footer>
         </div>
 )
