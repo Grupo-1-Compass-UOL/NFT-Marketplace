@@ -13,7 +13,6 @@ const routes = [
     ],
   },
 ];
-
 const BrowserRouter = createBrowserRouter(routes);
 
 function App() {
