@@ -8,10 +8,21 @@ const Button = ({
   text = "Button",
   className,
   icon = <ArrowRight className={styles["arrow-Right"]} color="white" />,
+  backgroundColor = "",
+  border = "",
   href,
+  width ="",
+  height = "",
+  padding = "",
+
 }) => {
   return (
-    <button className={`${styles.button} ${className}`} href={href} rel="noopener noreferrer" target="_blank">
+    <button 
+    className={`${styles.button} ${className}`}
+    style={{ backgroundColor, border, width, padding,height}}  
+    href={href} 
+    rel="noopener noreferrer" 
+    target="_blank">
       {hasIcon && <>{icon}</>}
       {hasText && <div className={styles["text-wrapper"]}>{text}</div>}
     </button>

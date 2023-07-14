@@ -18,6 +18,17 @@
 }
 
 
+.avatar_name{
+    color: #FFF;
+
+    /* H5 - Work Sans */
+    font-family: Work Sans;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
 .h5{
     color: #858584;
 
@@ -49,3 +60,22 @@
     line-height: 160%;
     }
 
+    .avatar {
+        background-image: url(../../../assets/images/avatar/avatarNFT.png);
+        background-position: 50% 50%;
+        background-size: cover;
+        height: 40px;
+        width: 40px;
+        margin-right: 10px;
+      }
+      
+    @media(max-width: 375px){
+      .avatar{
+      background-image: url(../../../assets/images/avatar/avatarNFT2.png);
+      background-position: 50% 50%;
+      background-size: cover;
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+      }
+    }

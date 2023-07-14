@@ -38,7 +38,7 @@ const Timer = () => {
 
   return (
     <div className={classes.container}>
-      <caption className={classes.auction}>Auction ends in:</caption>
+      <p className={classes.auction}>Auction ends in:</p>
       <div className={classes.timer}>
           <h3 className={classes.digit}> {time.hours.toString().padStart(2, '0')}: </h3>
           <h3 className={classes.digit}>{time.minutes.toString().padStart(2, '0')}: </h3>

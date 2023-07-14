@@ -3,6 +3,7 @@ import classes from './nft_page.module.css'
 import ArtistInfo from './ArtistInfo/ArtistInfo'
 import { Header } from '../header'
 import ImagePlaceHolder from './ImagePlaceHolder/ImagePlaceHolder'
+import MoreNFTS from './MoreNfts/MoreNFTS'
 
 
 
@@ -16,6 +17,7 @@ const NFTPage = () => {
           </header>
           <main className={classes.main}>
             <ArtistInfo/>
+            <MoreNFTS/>
             
           </main>
         </div>
