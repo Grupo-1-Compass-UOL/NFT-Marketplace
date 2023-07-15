@@ -1,6 +1,6 @@
 import { MenuBurguer } from '../img/menuBurguer'
 import { IconUser } from '../img/iconUser'
-import { Logo } from '../logo/logo'
+import { Logo } from '../Logo'
 
 import headerStyles from './header.module.css';
 

@@ -1,11 +1,11 @@
-import { Logo } from '../logo/logo';
+import { Logo } from '../Logo';
 import { IconDC } from '../img/iconDiscord';
 import { IconYT } from '../img/iconYoutube';
 import { IconTwitter } from '../img/iconTwitter';
 import { IconIntagram } from '../img/iconInstragram';
 import { IconEmail } from '../img/iconEmail';
-import { FooterText } from './footerText';
-import { FooterTitle } from './footerTitle';
+import { FooterText } from './FooterText';
+import { FooterTitle } from './FooterTitle';
 import footerStyles from './footer.module.css'
 
 
