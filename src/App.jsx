@@ -1,6 +1,6 @@
 import HeroSection from './components/pages/homepage/herosection/HeroSection';
-import Footer from './components/footer/footer';
-import Header from './components/header/header';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
 import TrendingCollection from './components/pages/homepage/trendingcollection/TrendingCollection';
 
 import './App.css';
