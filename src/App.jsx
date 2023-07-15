@@ -8,7 +8,6 @@ function App() {
   return (
     <main>
       <Header />
-      <CreateAccount />
       <Footer />
     </main>
   )
