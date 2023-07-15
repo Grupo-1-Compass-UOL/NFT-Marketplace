@@ -101,7 +101,7 @@
     border-radius: 20px;
     background: var(--call-to-action, #A259FF);
     display: flex;
-    height: 60px;
+    width: 315px;
     padding: 0px 50px;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@
     font-weight: 600;
     line-height: 140%;
     border: none;
-    margin-left: 2.5rem;
+
 }
 
 .addinfo {
