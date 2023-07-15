@@ -1,5 +1,3 @@
-
-
 function TrendingCollection() {
   return (
     <div className="TrendingCollection">
@@ -10,19 +8,22 @@ function TrendingCollection() {
       <div className="CollectionSlider">
         <div className="CollectionCard">
           <div className="PhotosNumbers">
-            <img></img>
+            <img src="src\assets\images\psychoDog.jpg"></img>
           </div>
           <div className="CollectionInfo">
-            <h4>DSGN Animals</h4>
             <div className="ArtistCard">
-              <img></img>
+              <img src="src\assets\images\catFromFuture.jpg"></img>
+              <img src="src\assets\images\designerBear.jpg"></img>
+            </div>
+            <div>
+              <h4>DSGN Animals</h4>
+              <img src='src\assets\images\avatar\Artist Card-cat.png'></img>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-  )
+  );
 }
 
-export default TrendingCollection
+export default TrendingCollection;
