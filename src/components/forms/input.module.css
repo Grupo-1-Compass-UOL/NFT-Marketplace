@@ -1,0 +1,38 @@
+.inputForm {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background-image: url(../../assets/images/User.svg);
+    background-repeat: no-repeat;
+    background-position: 20px;
+    outline: none;
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputForm::placeholder {
+    text-indent: 32px;
+}
+
+.inputTextCenter {
+    text-align: center;
+}
+
+.inputContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

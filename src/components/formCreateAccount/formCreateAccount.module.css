@@ -1,0 +1,19 @@
+.formCreateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputIcon {
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    transform: translateY(-50%);
+    z-index: 1;
+}

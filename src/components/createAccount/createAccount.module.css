@@ -1,0 +1,9 @@
+.imgCreateAccount {
+    max-width: 100%;
+}
+
+.createAccountContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
