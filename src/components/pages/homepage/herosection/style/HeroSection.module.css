@@ -100,10 +100,13 @@
 .btnheadlinesubhead button {
     border-radius: 20px;
     background: var(--call-to-action, #A259FF);
-    padding: 0 50px;
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
     gap: 12px;
     align-self: stretch;
-    width: 315px;
     color: #FFF;
     text-align: center;
     font-family: Work Sans;
@@ -112,6 +115,7 @@
     font-weight: 600;
     line-height: 140%;
     border: none;
+    margin-left: 2.5rem;
 }
 
 .addinfo {
@@ -183,7 +187,7 @@
 }
 
 
-@media screen and (min-width: 834px) {
+@media screen and (min-width: 819px) {
     .herosection {
         display: flex;
         padding: 80px 0px;
@@ -206,7 +210,6 @@
         align-items: flex-start;
         gap: 20px;
         flex-shrink: 0;
-        background-color: #A259FF;
     }
 
     .textframe {
@@ -215,8 +218,8 @@
         align-items: flex-start;
         gap: 20px;
         align-self: stretch;
-        background-color: red;
         padding: 0 5rem;
+        width: 55%;
     }
 
     .textframe h1 {
@@ -225,7 +228,6 @@
         flex-direction: column;
         justify-content: center;
         color: var(--white, #FFF);
-        font-family: Work Sans;
         font-size: 38px;
         font-style: normal;
         font-weight: 600;
@@ -235,10 +237,65 @@
 
     .textframe p {
         color: var(--white, #FFF);
-        font-family: Work Sans;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 140%;
+
+    }
+
+    .box {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 29rem;
+        margin-top: -14rem;
+        width: 382px;
+    }
+
+    .btnheadlinesubhead button {
+        display: flex;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        margin-left: 3rem;
+        margin-top: -9rem;
+    }
+
+    .addinfo {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+        width: 315px;
+        margin-left: 5rem;
+        margin-top: -7rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        align-self: stretch;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .box {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 35rem;
+        margin-top: -14rem;
+        width: 500px;
+        height: 400px;
     }
 }
