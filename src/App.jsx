@@ -1,7 +1,8 @@
 import './App.css';
 import Rankings from './pages/Rankings';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import RootLayout from './pages/Root';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import {RootLayout} from './pages/Root';
+import Marketplace from './pages/Marketplace';
 
 const routes = [
   {
@@ -10,6 +11,7 @@ const routes = [
     children: [
       { path: '/', element: <Rankings /> },
       { path: '/rankings', element: <Rankings /> },
+      {path: '/marketplace', element: <Marketplace />},
     ],
   },
 ];
