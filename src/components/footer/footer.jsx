@@ -1,20 +1,20 @@
 import { Logo } from '../logo/logo';
-import { IconDC } from '../img/iconDiscord';
-import { IconYT } from '../img/iconYoutube';
-import { IconTwitter } from '../img/iconTwitter';
-import { IconIntagram } from '../img/iconInstragram';
-import { IconEmail } from '../img/iconEmail';
-import { FooterText } from './footerText';
-import { FooterTitle } from './footerTitle';
+import { IconDC } from '../../assets/images/img/iconDiscord';
+import { IconYT } from '../../assets/images/img/iconYoutube';
+import { IconTwitter } from '../../assets/images/img/iconTwitter';
+import { IconIntagram } from '../../assets/images/img/iconInstragram';
+import { IconEmail } from '../../assets/images/img/iconEmail';
+import { FooterText } from './FooterText';
+import { FooterTitle } from './FooterTitle';
 import footerStyles from './footer.module.css'
 
 
 
-export function Footer() {
+function Footer() {
     return (
         <div className={footerStyles.footerContent} >
             <div className={footerStyles.footerInfo}>
-                <div className={`${footerStyles.footerContainer} ${footerStyles.footerMarketplace}`}>
+                <div className={footerStyles.footerContainer}>
                     <Logo isFooter={true} />
                     <FooterText text="NFT marketplace UI created with Anima for Figma" />
                     <FooterText text=" Join our community" />
@@ -25,7 +25,7 @@ export function Footer() {
                         <IconIntagram />
                     </div>
                 </div>
-                <div className={`${footerStyles.footerContainer} ${footerStyles.footerExplore}`}>
+                <div className={footerStyles.footerContainer}>
                     <FooterTitle title="Explore" />
                     <div className={footerStyles.footerContainer}>
                         <FooterText text='Marketplace' />
@@ -33,7 +33,7 @@ export function Footer() {
                         <FooterText text='Connect a wallet' />
                     </div>
                 </div>
-                <div className={`${footerStyles.footerContainer} ${footerStyles.footerSubscribe}`}>
+                <div className={footerStyles.footerContainer}>
                     <FooterTitle title='Join our weekly digest' />
                     <FooterText text='Get exclusive promotions & updates straight to your inbox.' />
                     <div className={`${footerStyles.footerContainer} ${footerStyles.inputContainer}`}>
@@ -50,3 +50,5 @@ export function Footer() {
         </div >
     )
 }
+
+export default Footer
