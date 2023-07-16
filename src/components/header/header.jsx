@@ -2,7 +2,7 @@ import { MenuBurguer } from '../../assets/images/img/menuBurguer'
 import { IconUser } from '../../assets/images/img/iconUser'
 import { Logo } from '../logo/logo'
 
-import Styles from './Header.module.css';
+import Styles from './header.module.css';
 
 function Header() {
     return (
