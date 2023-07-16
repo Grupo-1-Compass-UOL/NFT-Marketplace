@@ -11,12 +11,18 @@
 }
 
 @media screen and (min-width: 1080px) {
-    .menuHeader {
+    .headerContainer {
         display: flex;
         padding: 20px 50px;
-        justify-content: center;
         align-items: center;
         gap: 30px;
+    }
+
+    .menuHeader {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 45px;
     }
 
     .menuHeader a {
@@ -24,6 +30,7 @@
         color: #FFF;
         text-align: center;
         font-size: 16px;
+        font-family: Work Sans;
         font-style: normal;
         font-weight: 600;
         cursor: pointer;
@@ -39,6 +46,7 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 600;
+        font-family: Work Sans;
         display: flex;
         height: 60px;
         padding: 0px 30px;

@@ -2,7 +2,7 @@ import { Logo } from '../logo/logo';
 import { IconDC } from '../img/iconDiscord';
 import { IconYT } from '../img/iconYoutube';
 import { IconTwitter } from '../img/iconTwitter';
-import { IconIntagram } from '../img/iconInstragram';
+import { IconInstagram } from '../img/iconInstagram';
 import { IconEmail } from '../img/iconEmail';
 import { Text } from '../text/text';
 import { FooterTitle } from './footerTitle';
@@ -22,7 +22,7 @@ function Footer() {
                         <IconDC />
                         <IconYT />
                         <IconTwitter />
-                        <IconIntagram />
+                        <IconInstagram />
                     </div>
                 </div>
                 <div className={footerStyles.footerContainer}>

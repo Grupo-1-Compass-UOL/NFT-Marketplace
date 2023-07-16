@@ -1,8 +1,8 @@
 import Styles from './formCreateAccount.module.css'
-import { Input } from '../forms/input';
-import { IconUser } from '../img/iconUser';
-import { IconEmail } from '../img/iconEmail';
-import { IconLockKey } from '../img/iconLockKey';
+import { Input } from '../../forms/input';
+import { IconUser } from '../../img/iconUser';
+import { IconEmail } from '../../img/iconEmail';
+import { IconLockKey } from '../../img/iconLockKey';
 
 export function FormCreateAccount() {
     return (
