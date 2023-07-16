@@ -24,7 +24,7 @@ function SectionHeadline() {
           mainImage="src\assets\images\Primary Photo Placeholder.png"
           frameImage1="src\assets\images\Secondary Photo Placeholder.png"
           frameImage2="src\assets\images\Secondary Photo Placeholder (1).png"
-          frameTitle="6+"
+          frameTitle="1025+"
           title="Magic Mushrooms"
           artistImage="src\assets\images\avatar\Artist Card.png"
         />
