@@ -13,7 +13,6 @@ function App() {
       <HeroSection />
       <TrendingCollection />
       <Footer />
-  
     </main>
   )
 }
