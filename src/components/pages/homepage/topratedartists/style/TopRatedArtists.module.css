@@ -1,0 +1,210 @@
+.TopRatedArtists {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.SectionHeadlineButton {
+    width: 80%;
+    gap: 100px;
+    display: flex;
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.SectionHeadlinebuttontext h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.SectionHeadlinebuttontext p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.artistCard {
+    width: 330px;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 20px;
+    margin-left: 2rem;
+    background: #3B3B3B;
+}
+
+.artistCard span {
+    width: 35px;
+    height: 30px;
+    padding: 3px 6px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border-radius: 100%;
+    background: var(--background, #2B2B2B);
+    color: var(--caption-label-text, #858584);
+    text-align: center;
+    z-index: 1;
+}
+
+.artistCard:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+.TopRatedArtists_tablet{
+    display: none;
+}
+
+.TopRatedArtists_1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.TopRatedArtists_2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.TopRatedArtists_3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.artistCard img {
+    margin-left: -2rem;
+}
+
+.artistCard h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.artistCard p {
+    position: absolute;
+    color: var(--caption-label-text, #858584);
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}
+
+.artistCard h4 {
+    position: absolute;
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 1.8rem;
+    margin-left: 13rem;
+}
+
+.button Button {
+    display: flex;
+    height: 50px;
+    padding: 0px 95px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--call-to-action, #A259FF);
+    background: var(--background, #2B2B2B);
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    margin-left: 2rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.button Button:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+@media screen and (min-width: 819px) {
+    .TopRatedArtists {
+        display: flex;
+        width: 690px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+
+    .SectionHeadlinebuttontext h1 {
+        font-size: 27px;
+    }
+    
+    .SectionHeadlinebuttontext p {
+        width: 90%;
+        font-size: 18px;
+    }
+    
+    .TopRatedArtists_1{
+        width: 740px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .TopRatedArtists_2{
+        width: 740px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+    
+    .TopRatedArtists_3{
+        width: 740px;
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .TopRatedArtists_tablet{
+        display: block;
+    }
+
+    .button Button {
+        display: flex;
+        height: 60px;
+        padding: 0px 40px;
+        margin-top: -30rem;
+        margin-left: 28rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .artistCard {
+        width: 330px;
+        display: flex;
+        padding: 20px;
+        gap: 20px;
+        align-self: stretch;
+        border-radius: 20px;
+        margin-left: 2rem;
+        background: #3B3B3B;
+    }
+}

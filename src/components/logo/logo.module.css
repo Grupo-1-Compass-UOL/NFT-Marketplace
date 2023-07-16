@@ -1,0 +1,35 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.logo_Icon {
+    width: 24px;
+    height: 24px;
+}
+
+.logoTitle {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Space Mono', monospace;
+}
+
+.footerTitle {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+@media screen and (min-width: 1080px) {
+    .logoTitle {
+        font-size: 22px;
+    }
+
+    .logo_Icon {
+        width: 32px;
+        height: 32px;
+    }
+}

@@ -1,0 +1,88 @@
+
+.artist_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    
+}
+.NFTInfo{
+    width: 70%;
+    justify-content: flex-start;
+
+}
+.timer{
+    align-self: self-start;
+}
+
+.h5{
+    color: #858584;
+
+/* H5 - Space Mono */
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.tags{
+    width: 100%;
+
+   
+}
+.btnInfo{
+ 
+    height: 2.875rem;
+    padding: 0rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 1.25rem;
+    background: var(--background-secondary, #3B3B3B);
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    margin: 10px;
+    
+}
+
+@media (max-width: 834px){
+    .artist_info{
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 10%;
+    }
+    .timer{
+        align-self: flex-end;
+    }
+    .NFTInfo{
+        display: flex;
+        flex-direction: column;
+            width: 100%;
+        }
+ 
+}
+
+@media(max-width: 375px) {
+  
+    .artist_info{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10%;
+    }
+    .timer{
+        align-self: center;
+    }
+    .NFTInfo{
+    display: flex;
+    flex-direction: column;
+        width: 100%;
+    }
+    
+}
