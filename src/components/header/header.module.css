@@ -10,20 +10,10 @@
     display: none;
 }
 
-@media screen and (min-width: 834px) {
-    .headerContainer {
-        padding: 15px 50px;
-    }
-}
-
 @media screen and (min-width: 1080px) {
-
-    .headerContainer {
-        padding: 20px 50px;
-    }
-
     .menuHeader {
         display: flex;
+        padding: 20px 50px;
         justify-content: center;
         align-items: center;
         gap: 30px;

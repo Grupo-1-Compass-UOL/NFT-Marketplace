@@ -1,17 +1,15 @@
 import './App.css';
-import { Header } from './components/header/header';
-import { Footer } from './components/footer/footer';
-import { ConnectWallet } from './components/connectWallet/connectWallet';
-import { CreateAccount } from './components/createAccount/createAccount';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import HeroSection from './components/pages/homepage/herosection/HeroSection';
+import TrendingCollection from './components/pages/homepage/trendingcollection/TrendingCollection';
 
 
 
 function App() {
   return (
     <main>
-      <Header />
-      <CreateAccount />
-      <Footer />
+
     </main>
   )
 }

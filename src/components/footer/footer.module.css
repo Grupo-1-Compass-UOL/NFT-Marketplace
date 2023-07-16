@@ -103,13 +103,13 @@
     }
 
     .inputFooter {
-        width: 400px;
+        width: 420px;
         height: 60px;
     }
 
     .inputContainer button {
         position: absolute;
-        left: 60%;
+        left: 63%;
     }
 
     .btnFooter {
@@ -135,8 +135,12 @@
     .footerInfo {
         max-width: 1049px;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 120px;
+        gap: 84px;
+    }
+
+    .footerContainer {
+
+        gap: 25px;
     }
 
     .footerContent {
@@ -144,25 +148,7 @@
     }
 
     .footerLine {
-        width: 1149px;
+        width: 1049px;
         margin-bottom: 30px;
     }
-
-    .footerMarketplace {
-        max-width: 253px;
-        gap: 30px;
-    }
-
-    .footerExplore {
-        max-width: 240px;
-        gap: 25px;
-    }
-
-    .footerSubscribe {
-        max-width: 340px;
-        gap: 25px;
-    }
-
-
-
 }
