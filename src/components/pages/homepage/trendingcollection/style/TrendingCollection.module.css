@@ -45,6 +45,12 @@
     border-radius: 20px;
 }
 
+.PhotosNumbers img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
 .Frame {
     display: flex;
     gap: 15px;
@@ -64,6 +70,12 @@
     flex: 1 0 0;
     border-radius: 20px;
     background: var(--call-to-action, #A259FF);
+}
+
+.Frame p:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
 }
 
 .textframe {

@@ -1,10 +1,11 @@
 import PropTypes from "prop-types";
+import styled from './style/TopRatedArtists.module.css'
 
 function SectionHeadlineButtonText(props) {
   return (
-    <div className="SectionHeadlinebuttontext">
+    <div className={styled.SectionHeadlinebuttontext}>
         <h1>{props.title}</h1>
-        <p className="TextHeadline">{props.text}</p>
+        <p>{props.text}</p>
     </div>
   )
 }

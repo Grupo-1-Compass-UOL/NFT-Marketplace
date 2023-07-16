@@ -1,7 +1,11 @@
+import RocketLaunchNevativo from "../../../../assets/images/img/RocketLaunchNegativo"
 
 function Button() {
   return (
-    <div>Button</div>
+    <div className="button">
+        <RocketLaunchNevativo />
+        <button>View Rankings</button>
+    </div>
   )
 }
 

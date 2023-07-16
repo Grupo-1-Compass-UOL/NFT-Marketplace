@@ -89,6 +89,10 @@
     width: 330px;
 }
 
+.box .highlightedNFT {
+    cursor: pointer;
+}
+
 
 .btnheadlinesubhead {
     display: flex;
@@ -115,8 +119,13 @@
     font-weight: 600;
     line-height: 140%;
     border: none;
-
 }
+.btnheadlinesubhead button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
 
 .addinfo {
     width: 315px;
