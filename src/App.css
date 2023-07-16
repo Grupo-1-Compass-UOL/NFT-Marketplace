@@ -6,9 +6,9 @@
 main {
   min-height: 100vh;
   max-width: 100vw;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 @media screen and (min-width: 1080px) {

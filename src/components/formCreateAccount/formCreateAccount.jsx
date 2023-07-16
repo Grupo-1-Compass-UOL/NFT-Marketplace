@@ -8,7 +8,7 @@ export function FormCreateAccount() {
     return (
         <form action="" className={Styles.formCreateContainer}>
             <div className={Styles.inputContainer}>
-                <span className={Styles.inputIcon} ><IconUser /></span>
+                <span className={Styles.inputIcon} ><IconUser isGray={true} /></span>
                 <Input type="text" name="" id="" placeholder="Username" />
             </div>
             <div className={Styles.inputContainer}>

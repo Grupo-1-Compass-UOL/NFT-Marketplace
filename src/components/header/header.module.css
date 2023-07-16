@@ -39,10 +39,6 @@
         cursor: pointer;
     }
 
-    .menuHeader button:hover {
-        transform: scale(0.9);
-    }
-
     .menuHeader a:hover {
         transform: scale(0.9);
     }
