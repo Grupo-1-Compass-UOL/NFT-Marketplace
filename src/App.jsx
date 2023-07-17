@@ -2,6 +2,7 @@ import './App.css';
 import Rankings from './pages/Rankings';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './pages/Root';
+import NFTPage from './components/NFT-Page/NFTPage';
 
 const routes = [
   {
@@ -10,10 +11,10 @@ const routes = [
     children: [
       { path: '/', element: <Rankings /> },
       { path: '/rankings', element: <Rankings /> },
+      { path: '/NFTPage', element: <NFTPage />},
     ],
   },
 ];
-
 const BrowserRouter = createBrowserRouter(routes);
 
 function App() {

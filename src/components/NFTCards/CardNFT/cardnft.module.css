@@ -7,6 +7,18 @@
 
     
 }
+.customLink{
+    text-decoration: none;
+    color: inherit;
+
+}
+.cardContainer:hover{
+    color: aqua;
+}
+.customLink:hover{
+    cursor: pointer;
+    opacity: .9;
+}
 .cardInfoContainer{
     display:flex;
     flex-direction: column;

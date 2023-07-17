@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './cardnft.module.css';
+import { Link } from "react-router-dom"
 
 const CardNFT = ({ 
   title, 
@@ -37,20 +38,22 @@ const CardNFT = ({
 
 
   return (
-    <div className={classes.cardContainer} style={backgroundCard} >
-      <div style={imageStyle}></div>
-      <div className={classes.cardInfoContainer}>
-      <h2 className={classes.NftName}>{title}</h2>
-        <div className={classes.avatar}>
-          <div style={avatarImage}></div>
-          <span className={classes.creator}>{creator}</span>
-        </div>
-        <div className={classes.infos}>
-          <span><p>Price</p>${price}/ETH</span>
-          <span><p>Highest Bid </p>{bid}wEth</span>        
+    <Link to="/NFTPage" className={classes.customLink} >
+      <div className={classes.cardContainer} style={backgroundCard} >
+        <div style={imageStyle}></div>
+        <div className={classes.cardInfoContainer}>
+        <h2 className={classes.NftName}>{title}</h2>
+          <div className={classes.avatar}>
+            <div style={avatarImage}></div>
+            <span className={classes.creator}>{creator}</span>
+          </div>
+          <div className={classes.infos}>
+            <span><p>Price</p>${price}/ETH</span>
+            <span><p>Highest Bid </p>{bid}wEth</span>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
