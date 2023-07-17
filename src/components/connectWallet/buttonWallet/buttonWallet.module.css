@@ -1,0 +1,16 @@
+.btnWallet {
+    display: flex;
+    width: 320px;
+    height: 60px;
+    padding: 0px 20px 0px 40px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    border: 1px solid var(--call-to-action, #A259FF);
+    background: var(--background-secondary, #3B3B3B);
+}
