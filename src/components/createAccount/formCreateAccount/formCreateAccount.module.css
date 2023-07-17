@@ -1,0 +1,47 @@
+.formCreateContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.inputContainer {
+    position: relative;
+}
+
+.inputIcon {
+    position: absolute;
+    top: 53%;
+    left: 7%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.btnCreateAccount {
+    display: flex;
+    font-family: Work Sans;
+    width: 315px;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: none;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.btnContainer {
+    margin-top: 15px;
+}
+
+p {
+    font-size: 12px;
+    font-family: Work Sans;
+    font-weight: 400;
+}
