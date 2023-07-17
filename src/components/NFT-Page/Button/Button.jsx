@@ -1,5 +1,5 @@
-import React from 'react';
-import ArrowRight from '../../img/ArrowRight';
+
+import ArrowRight from '../../../assets/images/img/ArrowRight';
 import styles from './button.module.css'; // Importe o arquivo de estilos CSS
 
 const Button = ({

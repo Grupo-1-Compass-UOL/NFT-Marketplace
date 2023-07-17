@@ -1,7 +1,7 @@
 import { ButtonWallet } from "../buttonWallet/buttonWallet";
 import {WalletConnect} from "../../../assets/images/img/WalletConnect";
 import { Metamask } from "../../../assets/images/img/metamask"
-import CoinBase from "../../../assets/images/img/CoinBase"
+import CoinBase from "../../../assets/images/img/Coinbase"
 import styles from './WalletOption.module.css';
 
 

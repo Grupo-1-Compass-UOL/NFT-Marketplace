@@ -3,7 +3,7 @@ import styles from './style/SubscribeWidget.module.css'
 import SubscribeHeadlineText from './SubscribeHeadlineText';
 import Input from '../../../components/forms/Input'
 import { useState, useEffect } from 'react';
-import { IconEmail } from '../../../assets/images/img/iconEmail';
+import { IconEmail } from '../../../assets/images/img/IconEmail';
 
 function SubscribeWidget() {
 

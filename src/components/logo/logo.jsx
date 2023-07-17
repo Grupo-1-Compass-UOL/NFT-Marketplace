@@ -1,4 +1,4 @@
-import { LogoIcon } from '../img/logoIcon';
+import { LogoIcon } from '../../assets/images/img/logoIcon';
 import logoStyles from './logo.module.css';
 import footerTitleStyles from '../footer/footer.module.css'
 import PropTypes from 'prop-types';
