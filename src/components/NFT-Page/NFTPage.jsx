@@ -4,7 +4,7 @@ import ArtistInfo from './ArtistInfo/ArtistInfo'
 import { Header } from '../header'
 import ImagePlaceHolder from './ImagePlaceHolder/ImagePlaceHolder'
 import MoreNFTS from './MoreNfts/MoreNFTS'
-import Footer from '../footer'
+import { Footer } from '../footer'
 
 
 
