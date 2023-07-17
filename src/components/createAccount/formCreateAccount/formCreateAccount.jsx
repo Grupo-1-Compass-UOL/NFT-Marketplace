@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Styles from './FormCreateAccount.module.css';
 import Input from '../../forms/Input'
-import { IconUser } from '../../img/iconUser';
-import { IconEmail } from '../../img/iconEmail';
+import { IconUser } from '../../../assets/images/img/IconUser'
+import { IconEmail } from '../../../assets/images/img/iconEmail';
 import IncoLockKey from '../../../assets/images/img/IconLockKey'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
