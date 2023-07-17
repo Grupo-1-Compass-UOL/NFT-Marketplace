@@ -1,10 +1,10 @@
 import './App.css';
-import NFTPage from './components/NFT-Page/NFTPage';
+import { Outlet } from "react-router-dom"
 
 function App() {
   return (
     <main>
-      <NFTPage/>
+        <Outlet/>
     </main>
   );
 }

@@ -4,8 +4,21 @@
     align-items: center;
     border-radius: 20px;
     flex-direction: column;
+    text-decoration: none;
 
     
+}
+.customLinks{
+    text-decoration: none;
+    color: inherit;
+
+}
+.cardContainer:hover{
+    color: aqua;
+
+}
+.customLinks:hover{
+   opacity: .9;
 }
 .cardInfoContainer{
     display:flex;
