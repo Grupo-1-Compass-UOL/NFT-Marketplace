@@ -5,7 +5,7 @@ function SubscribeHeadlineText(props) {
     return (
         <div className={styled.textframe}>
             <h1>{props.title}</h1>
-            <p className="TextHeadline">{props.text}</p>
+            <p className={styled.textHeadline}>{props.text}</p>
         </div>
     );
 }
