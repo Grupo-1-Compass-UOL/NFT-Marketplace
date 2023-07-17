@@ -12,7 +12,7 @@ function Header() {
         <a>Marketplace</a>
         <a href="">Rankings</a>
         <a href="">Connect a wallet</a>
-        <button className={Styles.btnMenu}> <IconUser />Sign up</button>
+        <button className={Styles.btnMenu}> <IconUser />Sign Up</button>
       </nav>
       <div className={Styles.menuBurguer}>
         <MenuBurguer />
