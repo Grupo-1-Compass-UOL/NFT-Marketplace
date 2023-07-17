@@ -1,6 +1,12 @@
-export function LogoIcon() {
+import PropTypes from 'prop-types';
+import logoIconStyles from '../../../components/logo/logo.module.css'
+import footerIconStyles from '../../../components/Footer/footer.module.css'
+
+export function LogoIcon({ isFooter }) {
+    const className = isFooter ? footerIconStyles.footerLogoIcon : logoIconStyles.logo_Icon;
+
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className={className}>
             <path fillRule="evenodd" clipRule="evenodd" d="M6 12.4502C6.55228 12.4502 7 12.8979 7 13.4502V26.0002H25V13.4502C25 12.8979 25.4477 12.4502 26 12.4502C26.5523 12.4502 27 12.8979 27 13.4502V26.0002C27 26.5306 26.7893 27.0393 26.4142 27.4144C26.0391 27.7895 25.5304 28.0002 25 28.0002H7C6.46957 28.0002 5.96086 27.7895 5.58579 27.4144C5.21071 27.0393 5 26.5306 5 26.0002V13.4502C5 12.8979 5.44772 12.4502 6 12.4502Z" fill="#A259FF" />
             <path fillRule="evenodd" clipRule="evenodd" d="M3 5C3 4.44772 3.44772 4 4 4H28C28.5523 4 29 4.44772 29 5C29 5.55228 28.5523 6 28 6H4C3.44772 6 3 5.55228 3 5Z" fill="#A259FF" />
             <path fillRule="evenodd" clipRule="evenodd" d="M4 7C4.55228 7 5 7.44772 5 8V10C5 10.7956 5.31607 11.5587 5.87868 12.1213C6.44129 12.6839 7.20435 13 8 13C8.79565 13 9.55871 12.6839 10.1213 12.1213C10.6839 11.5587 11 10.7956 11 10V8C11 7.44772 11.4477 7 12 7C12.5523 7 13 7.44772 13 8V10C13 11.3261 12.4732 12.5979 11.5355 13.5355C10.5979 14.4732 9.32608 15 8 15C6.67392 15 5.40215 14.4732 4.46447 13.5355C3.52678 12.5979 3 11.3261 3 10V8C3 7.44772 3.44772 7 4 7Z" fill="#A259FF" />
@@ -9,3 +15,7 @@ export function LogoIcon() {
         </svg>
     );
 }
+
+LogoIcon.propTypes = {
+    isFooter: PropTypes.bool.isRequired,
+};
