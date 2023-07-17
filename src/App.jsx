@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './pages/Root';
 import NFTPage from './components/NFT-Page/NFTPage';
 import Homepage from './pages/Homepage';
-import connectWalletfrom from './components/connectWallet/connectWallet';
+
 
 const routes = [
   {
@@ -14,8 +14,9 @@ const routes = [
       { path: '/', element: <Homepage/> },
       { path: '/rankings', element: <Rankings /> },
       { path: '/NFTPage', element: <NFTPage />},
-      { path: '/connect-wallet-desktop', element: <connectWallet /> },
-    
+      { path: '/connectWallet', element: <NFTPage />}
+
+ 
     ],
   },
 ];
