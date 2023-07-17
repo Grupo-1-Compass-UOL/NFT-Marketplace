@@ -1,0 +1,35 @@
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  gap: 1rem;
+  margin: 3rem 0;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.headline>h1 {
+  font-size: 2rem;
+  justify-content: left;
+}
+
+@media (min-width: 768px) {
+  .headline {
+    padding: 0 6rem;
+  }
+
+  .headline>h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headline {
+    padding: 0 9.5rem;
+    font-size: 1.75rem;
+  }
+
+  .headline>h1 {
+    font-size: 4rem;
+  }
+}

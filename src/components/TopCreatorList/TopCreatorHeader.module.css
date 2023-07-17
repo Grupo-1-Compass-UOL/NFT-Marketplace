@@ -1,0 +1,45 @@
+.header {
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: transparent;
+    border: 1px solid #3B3B3B;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    color: #858584;
+}
+
+.header__position {
+    display: flex;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.header__name {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header__change,
+.header__number_sold {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header__change{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .header__number_sold {
+        display: block;
+    }
+
+}

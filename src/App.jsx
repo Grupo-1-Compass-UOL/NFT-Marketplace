@@ -1,21 +1,23 @@
 import './App.css';
-import  Header  from './components/header/Header';
-import  Footer  from './components/footer/Footer';
-import HeroSection from './components/pages/homepage/herosection/HeroSection';
-import TrendingCollection from './components/pages/homepage/trendingcollection/TrendingCollection';
+import Rankings from './pages/Rankings';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import RootLayout from './pages/Root';
 
+const routes = [
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { path: '/', element: <Rankings /> },
+      { path: '/rankings', element: <Rankings /> },
+    ],
+  },
+];
 
+const BrowserRouter = createBrowserRouter(routes);
 
 function App() {
-  return (
-    <main>
-      <Header />
-      <HeroSection />
-      <TrendingCollection />
-      <Footer />
-    </main>
-  )
+  return <RouterProvider router={BrowserRouter} />;
 }
 
 export default App;
-
