@@ -1,4 +1,4 @@
-import RocketLaunchNevativo from "../../../../assets/images/img/RocketLaunchNegativo";
+import RocketLaunchNevativo from "../../../assets/images/img/RocketLaunchNegativo";
 import styled from "./style/TopRatedArtists.module.css";
 
 function Button() {

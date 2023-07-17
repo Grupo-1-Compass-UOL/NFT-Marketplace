@@ -1,4 +1,4 @@
-import RocketLaunch from "../../../../assets/images/img/RocketLaunch";
+import RocketLaunch from "../../../assets/images/img/RocketLaunch";
 import styled from "./style/HeroSection.module.css";
 
 function HeadlineSubheadButton() {
