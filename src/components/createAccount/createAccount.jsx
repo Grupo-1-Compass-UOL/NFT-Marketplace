@@ -1,7 +1,7 @@
 import styles from './CreateAccount.module.css';
 import { FormCreateAccount } from './FormCreateAccount/FormCreateAccount'
 import { Text } from '../text/text';
-import { TitleCreateAccount } from '../titleCreateAccount/titleCreateAccount';
+import { TitleCreateAccount } from './TitleCreateAccount/TitleCreateAccount';
 import Astronaut from '../../assets/images/ImagePlaceholder.png'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';

@@ -1,7 +1,7 @@
 import styles from './ConnectWallet.module.css';
 import { Text } from '../text/text';
 import { WalletOptions } from './walletOptions/walletOption';
-import { TitleCreateAccount } from '../titleCreateAccount/titleCreateAccount';
+import { TitleCreateAccount } from '../CreateAccount/TitleCreateAccount/TitleCreateAccount';
 import Nave from '../../assets/images/nave.jpg'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
