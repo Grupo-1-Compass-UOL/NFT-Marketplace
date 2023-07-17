@@ -1,0 +1,64 @@
+.inputForm {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    outline: none;
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputFooter {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 30px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    color: #2B2B2B;
+    outline: none;
+}
+
+.inputForm::placeholder {
+    text-indent: 32px;
+}
+
+.inputTextCenter {
+    text-align: center;
+}
+
+.inputContainer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+@media screen and (min-width: 834px) {
+    .inputFooter {
+        width: 320px;
+        height: 46px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inputFooter {
+        width: 420px;
+        height: 60px;
+    }
+}
