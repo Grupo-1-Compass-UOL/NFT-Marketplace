@@ -1,5 +1,5 @@
 import './App.css';
-import Rankings from './pages/Rankings';
+import Rankings from './pages/Rankings/Rankings';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import RootLayout from './pages/Root';
 
