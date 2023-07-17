@@ -1,6 +1,7 @@
 import { MenuBurguer } from '../../assets/images/img/menuBurguer'
 import { IconUser } from '../../assets/images/img/iconUser'
 import { Logo } from '../logo/logo'
+
 import Styles from './Header.module.css';
 
 function Header() {
@@ -11,7 +12,7 @@ function Header() {
         <a>Marketplace</a>
         <a href="">Rankings</a>
         <a href="">Connect a wallet</a>
-        <button className={Styles.btnMenu}> <IconUser />Sign Up</button>
+        <button className={Styles.btnMenu}> <IconUser />Sign up</button>
       </nav>
       <div className={Styles.menuBurguer}>
         <MenuBurguer />
