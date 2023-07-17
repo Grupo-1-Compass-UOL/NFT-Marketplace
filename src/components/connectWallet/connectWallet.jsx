@@ -2,13 +2,10 @@ import styles from './ConnectWallet.module.css';
 import { Text } from '../text/text';
 import { WalletOptions } from './walletOptions/walletOption';
 import { TitleCreateAccount } from '../CreateAccount/TitleCreateAccount/TitleCreateAccount';
-import Nave from '../../assets/images/nave.jpg'
-import Header from '../header/header';
-import Footer from '../footer/footer';
+import Nave from '../../assets/images/nave.jpg';
 function ConnectWallet() {
     return (
         <main>
-            <Header />
             <div className={styles.connectWalletContainer}>
                 <div className={styles.imageContainer}>
                     <img src={Nave} className={styles.imgConnectWallet} alt="" />
@@ -22,7 +19,6 @@ function ConnectWallet() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </main>
     )
 }

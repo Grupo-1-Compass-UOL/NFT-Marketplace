@@ -1,7 +1,7 @@
 import styles from "./Input.module.css";
 import PropTypes from 'prop-types';
 
-export function Input(props) {
+function Input(props) {
     const selectClass = props.isClass ? styles.inputFooter : styles.inputForm;
     const image = {
         backgroundImage: `url(${props.image})`,
@@ -34,3 +34,5 @@ Input.propTypes = {
     onChange: PropTypes.string.isRequired,
     value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
 };
+
+export default Input;

@@ -1,16 +1,13 @@
 import styles from './CreateAccount.module.css';
-import { FormCreateAccount } from './FormCreateAccount/FormCreateAccount'
+import  FormCreateAccount  from './formCreateAccount/FormCreateAccount'
 import { Text } from '../text/text';
 import { TitleCreateAccount } from './TitleCreateAccount/TitleCreateAccount';
 import Astronaut from '../../assets/images/ImagePlaceholder.png'
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
 
-export function CreateAccount() {
+function CreateAccount() {
 
     return (
         <main>
-            <Header />
             <div className={styles.createAccountContainer}>
                 <div className={styles.imageContainer}>
                     <img src={Astronaut} className={styles.imgCreateAccount} alt="" />
@@ -24,7 +21,8 @@ export function CreateAccount() {
 
                 </div>
             </div >
-            <Footer />
         </main>
     );
 }
+
+export default CreateAccount;

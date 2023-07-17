@@ -1,14 +1,14 @@
 import { ButtonWallet } from "../buttonWallet/buttonWallet";
-import { Wallet } from "../../img/wallet";
-import { Metamask } from "../../img/metamask"
-import { Coinbase } from "../../img/coinBase"
+import {WalletConnect} from "../../../assets/images/img/WalletConnect";
+import { Metamask } from "../../../assets/images/img/metamask"
+import CoinBase from "../../../assets/images/img/CoinBase"
 import styles from './WalletOption.module.css';
 
 
 export function WalletOptions() {
-    const walletSvg = Wallet();
+    const walletSvg = WalletConnect();
     const metamask = Metamask();
-    const coinbase = Coinbase();
+    const coinbase = CoinBase();
 
     return (
         <div className={styles.btnOptions}>

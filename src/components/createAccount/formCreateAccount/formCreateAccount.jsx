@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Styles from './FormCreateAccount.module.css';
-import { Input } from '../../Forms/Input';
+import Input from '../../forms/Input'
 import { IconUser } from '../../img/iconUser';
 import { IconEmail } from '../../img/iconEmail';
-import { IconLockKey } from '../../img/iconLockKey';
+import IncoLockKey from '../../../assets/images/img/IconLockKey'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export function FormCreateAccount() {
+function FormCreateAccount() {
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -91,7 +91,7 @@ export function FormCreateAccount() {
 
             <div className={Styles.inputContainer}>
                 <span className={Styles.inputIcon}>
-                    <IconLockKey />
+                    <IncoLockKey />
                 </span>
                 <Input
                     type="password"
@@ -104,7 +104,7 @@ export function FormCreateAccount() {
 
             <div className={Styles.inputContainer}>
                 <span className={Styles.inputIcon}>
-                    <IconLockKey />
+                    <IncoLockKey />
                 </span>
                 <Input
                     type="password"
@@ -139,3 +139,5 @@ export function FormCreateAccount() {
         </form>
     );
 }
+
+export default FormCreateAccount
