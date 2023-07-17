@@ -11,6 +11,8 @@
 
 .btnCreateAccount {
     display: flex;
+    font-family: Work Sans;
+    width: 315px;
     height: 46px;
     padding: 0px 50px;
     justify-content: center;
@@ -29,7 +31,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .createForm {

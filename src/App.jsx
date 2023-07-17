@@ -6,8 +6,7 @@ import SubscribeWidget from './components/pages/homepage/SubscribeWidget/Subscri
 function App() {
   return (
     <main>
-      <SubscribeWidget />
-      <Footer />
+      <ConnectWallet />
     </main>
   )
 

@@ -21,7 +21,9 @@ export function CreateAccount() {
                         <Text isSize={true} color="white" text='Welcome! enter your details and start creating, collecting and selling NFTs.' />
                     </div>
                     <FormCreateAccount />
-                    <button className={styles.btnCreateAccount}>Create Account</button>
+                    <div>
+                        <button className={styles.btnCreateAccount}>Create Account</button>
+                    </div>
                 </div>
             </div >
             <Footer />

@@ -5,13 +5,16 @@ import PropTypes from 'prop-types';
 export function Input(props) {
     const [inputValue, setInputValue] = useState('');
     const selectClass = props.isClass ? styles.inputFooter : styles.inputForm;
-
+    const image = {
+        backgroundImage: `url(${props.image})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'left',
+        backgroundSize: 'cover',
+    };
 
     const handleInputChange = (event) => {
         setInputValue(event.target.value);
     };
-
-
 
     return (
         <input
@@ -19,6 +22,7 @@ export function Input(props) {
             type={props.type}
             name={props.name}
             value={inputValue}
+            style={image}
             placeholder={props.placeholder}
             onChange={handleInputChange}
 
@@ -32,4 +36,5 @@ Input.propTypes = {
     placeholder: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
     isClass: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
 };
