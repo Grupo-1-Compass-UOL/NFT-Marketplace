@@ -1,5 +1,6 @@
 .subscribeWidget {
     display: flex;
+    padding: 40px 0px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -59,27 +60,98 @@
     line-height: 140%;
 }
 
+.subscribeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.btnSubscribe {
+    font-family: Work Sans;
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    border: none;
+}
+
+
 @media screen and (min-width: 819px) {
+
+    .widgetContainer {
+        display: flex;
+        padding: 40px 195px 80px 195px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
     .sectionheadline {
+        width: 320px;
+        height: 280px;
+    }
+
+    .subscribeContainer {
+        position: relative;
+    }
+
+    .inputFooter {
+        width: 420px;
+        height: 60px;
+    }
+
+    .subscribeWidget {
         display: flex;
         width: 690px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        margin-left: 2.5rem;
+        height: 360px;
+        padding: 40px 30px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        background: #3B3B3B;
+        gap: 30px;
     }
 
 }
 
 @media screen and (min-width: 1080px) {
-    .sectionheadline {
-        display: flex;
-        width: 1046px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        margin-left: 2.5rem;
+
+    .btnSubscribe {
+        width: 211px;
+        height: 60px;
+        text-align: center;
     }
 
+    .subscribeContainer button {
+        position: absolute;
+        left: 50%;
+    }
+
+    .sectionheadline {
+        width: 425px;
+        height: 272px;
+    }
+
+    .subscribeWidget {
+        display: flex;
+        width: 1050px;
+        height: 430px;
+        padding: 60px;
+        align-items: center;
+        gap: 80px;
+
+    }
 
 }

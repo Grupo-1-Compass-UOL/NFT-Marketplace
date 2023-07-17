@@ -51,14 +51,14 @@
 
 @media screen and (min-width: 834px) {
     .inputFooter {
+        width: 320px;
+        height: 46px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .inputFooter {
         width: 420px;
         height: 60px;
     }
-
-
-
-
-
-
-
 }

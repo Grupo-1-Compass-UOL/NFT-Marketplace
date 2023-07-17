@@ -37,7 +37,7 @@ function Footer() {
                     <FooterTitle title='Join our weekly digest' />
                     <Text text='Get exclusive promotions & updates straight to your inbox.' />
                     <div className={`${footerStyles.footerContainer} ${footerStyles.inputContainer}`}>
-                        <input className={[footerStyles.inputFooter, footerStyles.Text].join(' ')} placeholder='Enter Your Email Address' type="text" />
+                        <input className={footerStyles.inputFooter} placeholder='Enter Your Email Address' type="text" />
                         <button className={footerStyles.btnFooter}><IconEmail /> Subscribe</button>
                     </div>
 

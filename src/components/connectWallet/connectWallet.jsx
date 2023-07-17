@@ -6,8 +6,6 @@ import Nave from '../../assets/images/nave.jpg'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 export function ConnectWallet() {
-    const fontSize = styles.fontSize;
-
     return (
         <main>
             <Header />
