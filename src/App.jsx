@@ -6,8 +6,16 @@ import SubscribeWidget from './components/pages/homepage/SubscribeWidget/Subscri
 function App() {
   return (
     <main>
-      <ConnectWallet />
-    </main>
+<<<<<<< HEAD
+
+=======
+      <Header />
+      <HeroSection />
+      <TrendingCollection />
+      <Footer />
+  
+>>>>>>> eb8ffe7f60330511d48962101857de9bd6d4e9c2
+    </main >
   )
 
 }
