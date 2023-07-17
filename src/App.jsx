@@ -1,27 +1,25 @@
 import './App.css';
-import Rankings from './pages/Rankings';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import RootLayout from './pages/Root';
-import NFTPage from './components/NFT-Page/NFTPage';
+import { ConnectWallet } from './components/ConnectWallet/ConnectWallet';
 import { CreateAccount } from './components/CreateAccount/CreateAccount';
-
-const routes = [
-  {
-    path: '/',
-    element: <RootLayout />,
-    children: [
-      { path: '/', element: <Rankings /> },
-      { path: '/rankings', element: <Rankings /> },
-      { path: '/NFTPage', element: <NFTPage /> },
-    ],
-  },
-];
-const BrowserRouter = createBrowserRouter(routes);
-
+import Footer from './components/Footer/Footer';
+import SubscribeWidget from './components/pages/homepage/SubscribeWidget/SubscribeWidget';
 function App() {
-  return {
-      < CreateAccount />
-  };
+  return (
+    <main>
+<<<<<<< HEAD
+
+=======
+      <Header />
+      <HeroSection />
+      <TrendingCollection />
+      <Footer />
+  
+>>>>>>> eb8ffe7f60330511d48962101857de9bd6d4e9c2
+    </main >
+  )
+
 }
 
 export default App;
+
+
