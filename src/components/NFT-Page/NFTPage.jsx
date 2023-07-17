@@ -3,8 +3,6 @@ import classes from './nft_page.module.css'
 import ArtistInfo from './ArtistInfo/ArtistInfo'
 import ImagePlaceHolder from './ImagePlaceHolder/ImagePlaceHolder'
 import MoreNFTS from './MoreNfts/MoreNFTS'
-import Footer from '../footer'
-
 
 
 const NFTPage = () => {
@@ -17,13 +15,7 @@ const NFTPage = () => {
             <ArtistInfo/>
             <MoreNFTS/>
           </main>
-<<<<<<< HEAD
-          <footer>
-            <Footer/>
-          </footer>
-=======
    
->>>>>>> feature/router
         </div>
 )
 }
