@@ -24,15 +24,15 @@ function SectionHeadline() {
           mainImage="src\assets\images\Primary Photo Placeholder.png"
           frameImage1="src\assets\images\Secondary Photo Placeholder.png"
           frameImage2="src\assets\images\Secondary Photo Placeholder (1).png"
-          frameTitle="6+"
+          frameTitle="1025+"
           title="Magic Mushrooms"
           artistImage="src\assets\images\avatar\Artist Card.png"
         />
       </div>
       <div className={style.collectionDesktop}>
         <CollectionSlider
-          mainImage="src\assets\images\dancingRobot0512.jpg"
-          frameImage1="src\assets\images\dancingRobot0521.jpg"
+          mainImage="src\assets\images\dacingRobot0512.jpg"
+          frameImage1="src\assets\images\dacingRobot0321.jpg"
           frameImage2="src\assets\images\dancingRobot0356-0987.jpg"
           frameTitle="1025+"
           title="Disco Machines"

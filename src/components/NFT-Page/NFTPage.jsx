@@ -5,7 +5,6 @@ import ImagePlaceHolder from './ImagePlaceHolder/ImagePlaceHolder'
 import MoreNFTS from './MoreNfts/MoreNFTS'
 
 
-
 const NFTPage = () => {
   return (
     <div className={classes.NFTPagedesktop}>
