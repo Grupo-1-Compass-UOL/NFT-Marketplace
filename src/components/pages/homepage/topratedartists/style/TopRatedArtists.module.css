@@ -196,7 +196,7 @@
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1024px) {
     .artistCard {
         width: 330px;
         display: flex;
