@@ -1,7 +1,7 @@
-import Photo from '../../../../assets/images/Photo.png';
+import Photo from '../../../assets/images/Photo.png';
 import styles from './style/SubscribeWidget.module.css'
 import SubscribeHeadlineText from './SubscribeHeadlineText';
-import { Input } from './../../../Forms/Input';
+import { Input } from '../../../../Forms/Input';
 import { useState, useEffect } from 'react';
 import { IconEmail } from '../../../img/iconEmail';
 
