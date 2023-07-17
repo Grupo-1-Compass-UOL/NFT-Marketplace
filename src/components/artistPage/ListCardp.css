@@ -1,0 +1,39 @@
+.itemsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+  .titleMoreNFT{
+    display: flex;
+    font-family: Work Sans;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
+}
+  .listNFT li {
+    flex-basis: 33%;
+    margin-bottom: 20px; 
+  }
+
+  @media (max-width: 1024px){
+    .itemsNFTtablet{
+      display: none;
+    }
+
+
+  }
+  @media screen and (max-width: 710px) {
+    .itemsNFTtablet{
+      display: none;
+    }
+    .itemsNFTdesktop{
+      display: none;
+    }
+  }
