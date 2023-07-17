@@ -1,3 +1,32 @@
-.container {
-    padding: 0 3rem;
+.list_nft {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+}
+
+.search_wrapper {
+  padding: 0 3rem;
+}
+
+@media (min-width: 768px) {
+  .list_nft {
+    padding: 0 6rem;
+  }
+
+  .search_wrapper {
+    padding: 0 6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .list_nft {
+    padding: 0 9.5rem;
+  }
+
+  .search_wrapper {
+    padding: 0 9.5rem;
+  }
 }

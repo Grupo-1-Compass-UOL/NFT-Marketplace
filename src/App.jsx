@@ -1,7 +1,7 @@
 import './App.css';
 import Rankings from './pages/Rankings';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
-import {RootLayout} from './pages/Root';
+import RootLayout from './pages/Root';
 import Marketplace from './pages/Marketplace';
 
 const routes = [
