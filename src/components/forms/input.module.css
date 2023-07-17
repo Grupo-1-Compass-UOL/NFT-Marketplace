@@ -8,9 +8,6 @@
     align-self: stretch;
     border-radius: 20px;
     border: 1px solid var(--caption-label-text, #858584);
-    background-image: url(../../assets/images/User.svg);
-    background-repeat: no-repeat;
-    background-position: 20px;
     outline: none;
 }
 
@@ -19,6 +16,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.inputFooter {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 30px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    color: #2B2B2B;
+    outline: none;
 }
 
 .inputForm::placeholder {
@@ -35,4 +46,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+
+@media screen and (min-width: 834px) {
+    .inputFooter {
+        width: 420px;
+        height: 60px;
+    }
+
+
+
+
+
+
+
 }

@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 export function Input(props) {
     const [inputValue, setInputValue] = useState('');
     const [isFocused, setIsFocused] = useState(false);
+    const selectClass = props.isClass ? styles.inputFooter : styles.inputForm;
+
 
     const handleInputChange = (event) => {
         setInputValue(event.target.value);
@@ -20,7 +22,7 @@ export function Input(props) {
 
     return (
         <input
-            className={`${styles.inputForm} ${isFocused ? styles.inputTextCenter : ''} ${inputValue && styles.inputTextCenter}`}
+            className={`${styles.inputForm} ${selectClass} ${isFocused ? styles.inputTextCenter : ''} ${inputValue && styles.inputTextCenter}`}
             type={props.type}
             name={props.name}
             value={inputValue}
@@ -37,4 +39,6 @@ Input.propTypes = {
     type: PropTypes.string.isRequired,
     placeholder: PropTypes.string.isRequired,
     text: PropTypes.string.isRequired,
+    isClass: PropTypes.string.isRequired,
+
 };

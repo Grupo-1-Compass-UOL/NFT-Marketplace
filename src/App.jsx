@@ -4,7 +4,7 @@ import { CreateAccount } from './components/CreateAccount/CreateAccount';
 import SubscribeWidget from './components/pages/homepage/SubscribeWidget/SubscribeWidget';
 function App() {
   return (
-    <SubscribeWidget />
+    <ConnectWallet />
   )
 
 }

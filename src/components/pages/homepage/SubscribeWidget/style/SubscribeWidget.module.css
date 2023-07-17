@@ -1,48 +1,17 @@
-.TrendingCollection {
+.subscribeWidget {
     display: flex;
-    padding: 40px 0px;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
-    align-self: stretch;
-
+    gap: 30px;
 }
+
 
 .sectionheadline {
     display: flex;
-    width: 89%;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
-    margin-left: 2.5rem;
-}
-
-.CollectionCard {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    flex: 1 0 0;
-}
-
-.collectionTablet {
-    display: none;
-}
-
-.collectionDesktop {
-    display: none;
-}
-
-.PhotosNumbers {
-    gap: 15px;
-    align-self: stretch;
-}
-
-.PhotosNumbers img {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 20px;
+    width: 315px;
+    gap: 40px;
 }
 
 .Frame {
@@ -67,6 +36,8 @@
 }
 
 .textframe {
+    width: 315px;
+    height: 132px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -98,12 +69,6 @@
         margin-left: 2.5rem;
     }
 
-    .collectionTablet {
-        margin-left: 22rem;
-        margin-top: -29.5rem;
-        display: block;
-    }
-
 }
 
 @media screen and (min-width: 1080px) {
@@ -116,9 +81,5 @@
         margin-left: 2.5rem;
     }
 
-    .collectionDesktop {
-        margin-left: 44rem;
-        margin-top: -31.5rem;
-        display: block;
-    }
+
 }

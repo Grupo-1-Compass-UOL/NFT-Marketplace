@@ -7,7 +7,6 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 
 export function CreateAccount() {
-    const fontSize = styles.fontSize;
 
     return (
         <main>
@@ -19,7 +18,7 @@ export function CreateAccount() {
                 <div className={styles.createForm}>
                     <div className={styles.headlineContainer}>
                         <TitleCreateAccount title='Create Account' />
-                        <Text isSize={true} color="white" text='Welcome! enter your details and start creating, collecting and selling NFTs.' classFontSize={fontSize} />
+                        <Text isSize={true} color="white" text='Welcome! enter your details and start creating, collecting and selling NFTs.' />
                     </div>
                     <FormCreateAccount />
                     <button className={styles.btnCreateAccount}>Create Account</button>

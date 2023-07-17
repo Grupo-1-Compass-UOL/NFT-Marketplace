@@ -6,6 +6,8 @@ import Nave from '../../assets/images/nave.jpg'
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 export function ConnectWallet() {
+    const fontSize = styles.fontSize;
+
     return (
         <main>
             <Header />
@@ -16,7 +18,7 @@ export function ConnectWallet() {
                 <div className={styles.createForm}>
                     <div className={styles.headlineContainer}>
                         <TitleCreateAccount title='Connect Wallet' />
-                        <Text text='Choose a wallet you want to connect.
+                        <Text color="white" isSize={true} text='Choose a wallet you want to connect.
                      There are several wallet providers.' />
                         <WalletOptions />
                     </div>
