@@ -81,26 +81,26 @@
     transition: 200ms;
 }
 
-.BrowseCategories__table__desktop{
+.BrowseCategories__table__desktop {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.BrowseCategories__table__desktop2{
+.BrowseCategories__table__desktop2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 @media screen and (min-width: 819px) {
-    .BrowseCategories__table__desktop{
+    .BrowseCategories__table__desktop {
         display: flex;
         flex-direction: row;
         gap: 20px;
     }
-    
-    .BrowseCategories__table__desktop2{
+
+    .BrowseCategories__table__desktop2 {
         display: flex;
         flex-direction: row;
         gap: 20px;
@@ -114,7 +114,8 @@
         gap: 40px;
         align-self: stretch;
     }
-    .BrowseCategories__img{
+
+    .BrowseCategories__img {
         display: flex;
         width: 315px;
         height: 500px;
@@ -139,33 +140,30 @@
         flex-direction: column;
         gap: 40px;
         align-self: stretch;
-        background-color: green;
     }
 
-    .BrowseCategories__table__desktop{
+    .BrowseCategories__table__desktop {
         width: 810px;
-        height: 250px;
+        height: 270px;
         display: flex;
         align-items: flex-start;
-        gap: 125px;
-        margin-left: 3rem;
-        background-color: red;
+        gap: 170px;
+        margin-left: 6rem;
     }
-    
-    .BrowseCategories__table__desktop2{
+
+    .BrowseCategories__table__desktop2 {
         width: 810px;
         height: 250px;
         display: flex;
         flex-direction: row;
-        gap: 125px;
-        background-color: royalblue;
-        margin-left: 3rem;
+        gap: 170px;
+        margin-left: 6rem;
     }
-    
-    .BrowseCategories__img{
+
+    .BrowseCategories__img {
         width: 400px;
         height: 600px;
-        background-color: #3B3B3B;
+
     }
 
     .BrowseCategories__container h1 {
@@ -173,8 +171,8 @@
         margin-left: 7rem;
     }
 
-    .CategoryCard img{
-        width: 12.5rem;
+    .CategoryCard img {
+        width: 17rem;
         height: auto
     }
 }

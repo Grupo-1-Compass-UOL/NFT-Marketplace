@@ -88,7 +88,7 @@
 
 }
 .artistCard img {
-    margin-left: -2rem;
+    margin-left: -2.8rem;
 }
 
 .artistCard h2 {
@@ -97,13 +97,15 @@
     font-weight: 600;
     line-height: 140%;
     text-transform: capitalize;
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
 }
 
 .artistCard p {
     position: absolute;
     color: var(--caption-label-text, #858584);
-    margin-top: 2rem;
-    margin-left: 6.5rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
 }
 
 .artistCard h4 {
@@ -114,8 +116,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    margin-top: 1.8rem;
-    margin-left: 13rem;
+    margin-top: 2.7rem;
+    margin-left: 16rem;
 }
 
 .button Button {
@@ -147,22 +149,27 @@
 @media screen and (min-width: 819px) {
     .TopRatedArtists {
         display: flex;
-        width: 690px;
+        width: 818px;
         flex-direction: column;
         align-items: flex-start;
         gap: 30px;
+
     }
 
     .SectionHeadlinebuttontext{
         margin-left: 6rem;
+        width:60%;
+        background-color: #2B2B2B;
     }
 
     .SectionHeadlinebuttontext h1 {
         font-size: 27px;
+
     }
     
     .SectionHeadlinebuttontext p {
-        font-size: 19px;
+        width: 100%;
+        font-size: 17px;
     }
     
     .TopRatedArtists_1{
@@ -198,13 +205,21 @@
     .button Button {
         display: flex;
         height: 60px;
-        padding: 0px 75px;
-        margin-top: -30rem;
-        margin-left: 35rem;
+        padding: 0px 30px;
+        margin-top: -36rem;
+        margin-left: 44rem;
     }
 }
 
 @media screen and (min-width: 1080px) {
+    .TopRatedArtists{
+        display: flex;
+        padding: 80px 195px;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        align-self: stretch;  
+    }
     .artistCard {
         width: 330px;
         display: flex;
@@ -213,6 +228,5 @@
         align-self: stretch;
         border-radius: 20px;
         margin-left: 2rem;
-        background: #3B3B3B;
     }
 }

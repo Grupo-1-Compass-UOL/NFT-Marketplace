@@ -1,9 +1,9 @@
 import Photo from '../../../assets/images/Photo.png';
 import styles from './style/SubscribeWidget.module.css'
 import SubscribeHeadlineText from './SubscribeHeadlineText';
-import { Input } from '../../../../Forms/Input';
+import { Input } from '../../../components/forms/input';
 import { useState, useEffect } from 'react';
-import { IconEmail } from '../../../img/iconEmail';
+import { IconEmail } from '../../../assets/images/img/iconEmail';
 
 function SubscribeWidget() {
 

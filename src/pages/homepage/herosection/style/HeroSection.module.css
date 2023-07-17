@@ -78,6 +78,7 @@
     left: 0;
     top: 0;
     width: 330px;
+    margin-left: -2rem;
 }
 
 .box .highlightedNFT {
@@ -93,6 +94,7 @@
 }
 
 .btnheadlinesubhead button {
+    display: flex;
     border-radius: 20px;
     background: var(--call-to-action, #A259FF);
     display: flex;
@@ -110,6 +112,7 @@
     font-weight: 600;
     line-height: 140%;
     border: none;
+    margin-left: 1rem;
 }
 .btnheadlinesubhead button:hover{
     cursor: pointer;
@@ -285,6 +288,11 @@
         gap: 50px;
         align-self: stretch;
     }
+    .box .highlightedNFT {
+        margin-left: 5rem;
+        margin-top: 0rem;
+        
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -336,8 +344,8 @@
     flex-direction: column;
     width: 120%;
     height: 470px;
-    margin-left: 3rem;
-    margin-top: -8rem;
+    margin-left: 8rem;
+    margin-top: -13rem;
     
 }
 
