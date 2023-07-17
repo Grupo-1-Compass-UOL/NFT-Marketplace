@@ -1,0 +1,68 @@
+.NFTHighLightContainer{
+    width: 100%;
+    z-index: 10000;
+    position: relative;
+}
+
+.MagicMashrooms{
+        width: 100%;
+}
+
+.versionMobile{
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  right: 50px;
+
+}
+.h1 {   
+    font: 900 50px arial;
+}
+
+.btnMashrooms{
+    width: 200px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    border: solid rgba(0, 0, 0, 0.659);
+    color: rgb(28, 7, 7);
+    font-size: 20px;
+    font-weight: 200;
+
+}
+.btnMashrooms:hover{
+    background-color: rgb(255, 171, 255);
+}
+.Mobile{
+    position: relative;
+  
+}
+.effectPurple{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 40%, rgba(138, 43, 226, 0.7));
+    display: none;
+}
+@media (max-width: 768px) {
+    .versionMobile{
+     display: flex;
+  
+     
+    }
+    .effectPurple{
+        display: flex;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .versionMobile{
+     display: none;
+    }
+    .effectPurple{
+        display: flex;
+    }
+  }
