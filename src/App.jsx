@@ -13,6 +13,7 @@ const routes = [
       { path: '/', element: <Homepage/> },
       { path: '/rankings', element: <Rankings /> },
       { path: '/NFTPage', element: <NFTPage />},
+    
     ],
   },
 ];
