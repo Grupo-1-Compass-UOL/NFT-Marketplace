@@ -5,7 +5,7 @@ function BrowseCategories() {
   return (
     <div className={style.BrowseCategories}>
       <div className={style.BrowseCategories__container}>
-        <h1>BrowseCategories</h1>
+        <h1>Browse Categories</h1>
       </div>
       <div className={style.BrowseCategories__img}>
         <div className={style.BrowseCategories__table__desktop}>
