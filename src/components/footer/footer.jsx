@@ -5,8 +5,8 @@ import { IconTwitter } from '../img/iconTwitter';
 import { IconInstagram } from '../img/iconInstagram';
 import { IconEmail } from '../img/iconEmail';
 import { Text } from '../text/text';
-import { FooterTitle } from './footerTitle';
-import footerStyles from './footer.module.css'
+import { FooterTitle } from './FooterTitle';
+import footerStyles from './Footer.module.css'
 
 
 

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from "./input.module.css";
+import styles from "./Input.module.css";
 import PropTypes from 'prop-types';
 
 export function Input(props) {

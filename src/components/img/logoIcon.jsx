@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import logoIconStyles from '../logo/logo.module.css'
-import footerIconStyles from '../footer/footer.module.css'
+import footerIconStyles from '../Footer/footer.module.css'
 
 export function LogoIcon({ isFooter }) {
     const className = isFooter ? footerIconStyles.footerLogoIcon : logoIconStyles.logo_Icon;

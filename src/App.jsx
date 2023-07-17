@@ -1,20 +1,11 @@
 import './App.css';
-import HeroSection from './components/pages/homepage/herosection/HeroSection';
-import TrendingCollection from './components/pages/homepage/trendingcollection/TrendingCollection';
-import { CreateAccount } from './components/createAccount/createAccount';
-import Header from './components/header/header';
-
-import Footer from './components/footer/footer';
-
-
+import { ConnectWallet } from './components/ConnectWallet/ConnectWallet';
+import { CreateAccount } from './components/CreateAccount/CreateAccount';
 function App() {
   return (
-    <main>
-      <Header />
-      <CreateAccount />
-      <Footer />
-    </main>
+    <ConnectWallet />
   )
+
 }
 
 export default App;

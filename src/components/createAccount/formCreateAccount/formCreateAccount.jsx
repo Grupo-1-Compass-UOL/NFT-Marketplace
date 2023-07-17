@@ -1,5 +1,5 @@
-import Styles from './formCreateAccount.module.css'
-import { Input } from '../../forms/input';
+import Styles from './FormCreateAccount.module.css'
+import { Input } from '../../Forms/Input';
 import { IconUser } from '../../img/iconUser';
 import { IconEmail } from '../../img/iconEmail';
 import { IconLockKey } from '../../img/iconLockKey';

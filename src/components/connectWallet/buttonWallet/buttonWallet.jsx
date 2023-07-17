@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import styles from './buttonWallet.module.css'
+import styles from './ButtonWallet.module.css'
 
 
 export function ButtonWallet(props) {

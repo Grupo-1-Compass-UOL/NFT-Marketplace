@@ -1,6 +1,6 @@
 import { LogoIcon } from '../img/logoIcon';
 import logoStyles from './logo.module.css';
-import footerTitleStyles from '../footer/footer.module.css'
+import footerTitleStyles from '../Footer/footer.module.css'
 import PropTypes from 'prop-types';
 
 export function Logo(props) {

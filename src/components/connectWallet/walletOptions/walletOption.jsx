@@ -2,7 +2,7 @@ import { ButtonWallet } from "../buttonWallet/buttonWallet";
 import { Wallet } from "../../img/wallet";
 import { Metamask } from "../../img/metamask"
 import { Coinbase } from "../../img/coinBase"
-import styles from './walletOption.module.css';
+import styles from './WalletOption.module.css';
 
 
 export function WalletOptions() {
