@@ -1,8 +1,5 @@
 import './App.css';
-import Rankings from './pages/Rankings';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import RootLayout from './pages/Root';
-import NFTPage from './components/NFT-Page/NFTPage';
+import { Outlet } from "react-router-dom"
 
 const routes = [
   {
@@ -18,7 +15,11 @@ const routes = [
 const BrowserRouter = createBrowserRouter(routes);
 
 function App() {
-  return <RouterProvider router={BrowserRouter} />;
+  return (
+    <main>
+        <Outlet/>
+    </main>
+  );
 }
 
 export default App;
