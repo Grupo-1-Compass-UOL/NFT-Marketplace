@@ -6,7 +6,7 @@ import NFTPage from './components/NFT-Page/NFTPage';
 import HomePage from './pages/Homepage';
 import ConnectWallet from './components/connectWallet/connectWallet';
 import CreateAccount from './components/createAccount/CreateAccount';
-
+import ArtistPage from './components/artistPage/ArtistPage';
 
 const routes = [
   {
@@ -17,7 +17,9 @@ const routes = [
       { path: '/rankings', element: <Rankings /> },
       { path: '/NFTPage', element: <NFTPage />},
       { path: '/connectWallet', element: <ConnectWallet/>},
-      { path: '/createaccount', element: <CreateAccount />}
+      { path: '/createaccount', element: <CreateAccount />},
+      { path: '/artistpage', element: <ArtistPage />},
+      { path: '/NFTPage', element: <NFTPage />}
  
     ],
   },
