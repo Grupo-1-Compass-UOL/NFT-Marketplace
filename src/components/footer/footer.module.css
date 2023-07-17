@@ -1,0 +1,162 @@
+.footerText {
+    color: #CCC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerTitle {
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footerContent {
+    width: 100%;
+    display: flex;
+    padding: 15px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+    background-color: #3B3B3B;
+}
+
+.footerInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footerIcons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footerLogoIcon {
+    width: 32px;
+    height: 32px;
+}
+
+.btnFooter {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    border: none;
+}
+
+.inputFooter {
+    display: flex;
+    width: 315px;
+    height: 46px;
+    padding: 16px 30px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 1px solid var(--caption-label-text, #858584);
+    background: var(--text, #FFF);
+    color: #2B2B2B;
+    outline: none;
+}
+
+.footerLine {
+    width: 315px;
+    height: 1px;
+    background: #858584;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.footerMessage {
+    color: #CCC;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    padding-bottom: 40px;
+}
+
+
+@media screen and (min-width: 834px) {
+
+    .footerLine {
+        width: 690px;
+    }
+
+    .inputContainer {
+        position: relative;
+    }
+
+    .inputFooter {
+        width: 420px;
+        height: 60px;
+    }
+
+    .inputContainer button {
+        position: absolute;
+        left: 63%;
+    }
+
+    .btnFooter {
+        width: 160px;
+        height: 60px;
+        text-align: center;
+    }
+
+
+    .footerContainer {
+        max-width: 690px;
+        gap: 25px;
+    }
+
+    .footerContent {
+        align-items: flex-start;
+        padding: 40px 75px;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    .footerInfo {
+        max-width: 1049px;
+        flex-direction: row;
+        gap: 84px;
+    }
+
+    .footerContainer {
+
+        gap: 25px;
+    }
+
+    .footerContent {
+        align-items: center;
+    }
+
+    .footerLine {
+        width: 1049px;
+        margin-bottom: 30px;
+    }
+}

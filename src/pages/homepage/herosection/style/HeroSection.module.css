@@ -1,0 +1,403 @@
+.herosection {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.herosectionframe {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.textframe {
+    display: flex;
+    padding: 0 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    align-self: stretch;
+}
+
+.textframe h1 {
+
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+
+}
+
+.textframe p {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%;
+
+}
+
+.box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.box .highlightedNFTwrapper {
+    margin-top: 2rem;
+    border: 0px none;
+    height: 330px;
+    width: 330px;
+
+}
+
+.box .highlightedNFT {
+    align-items: center;
+    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    left: 0;
+    top: 0;
+    width: 330px;
+    margin-left: -2rem;
+}
+
+.box .highlightedNFT {
+    cursor: pointer;
+}
+
+
+.btnheadlinesubhead {
+    display: flex;
+    height: 60px;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+.btnheadlinesubhead button {
+    display: flex;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    display: flex;
+    width: 315px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+    margin-left: 1rem;
+}
+.btnheadlinesubhead button:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+
+.addinfo {
+    width: 315px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.addinfoframe1 h3 {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.addinfoframe1 p {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.addinfoframe2 h3 {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.addinfoframe2 p {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.addinfoframe3 h3 {
+    color: var(--white, #FFF);
+    font-family: Space Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.addinfoframe3 p {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+@media screen and (min-width: 819px) {
+    .herosection {
+        display: flex;
+        padding: 80px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+
+    }
+
+    .herosectionframe {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .herotextbuttons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+
+    .textframe {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+        padding: 0 5rem;
+        width: 55%;
+    }
+
+    .textframe h1 {
+        display: flex;
+        width: 99%;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--white, #FFF);
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: capitalize;
+    }
+
+    .textframe p {
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+
+    }
+
+    .box {
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 29rem;
+        margin-top: -14rem;
+        width: 382px;
+    }
+
+    .btnheadlinesubhead button {
+        display: flex;
+        width: 225px;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        margin-left: 3rem;
+        margin-top: -11rem;
+    }
+
+    .addinfo {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+        width: 315px;
+        margin-left: 5rem;
+        margin-top: -9rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        align-self: stretch;
+    }
+    .box .highlightedNFT {
+        margin-left: 5rem;
+        margin-top: 0rem;
+        
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .herosection {
+        display: flex;
+        width: 100%;
+        padding: 80px 115px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+    
+    .textframe {
+        display: flex;
+        padding: 0 30px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+        align-self: stretch;
+    
+    }
+
+    .textframe h1 {
+        display: flex;
+        width: 510px;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 0;
+    font-size: 67px;
+    }
+    
+    .textframe p {
+        align-self: stretch;
+        width: 50%;
+        color: var(--white, #FFF);
+        font-size: 22px;
+    }
+
+
+
+.box .highlightedNFT {
+    align-items: center;
+    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    height: 470px;
+    margin-left: 8rem;
+    margin-top: -13rem;
+    
+}
+
+.btnheadlinesubhead button {
+    display: flex;
+    width: 225px;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    margin-left: 0rem;
+    margin-top: -11rem;
+}
+
+.addinfo {
+    width: 420px;
+    margin-left: 2rem;
+    margin-top: -9rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+}
+.addinfoframe1 h3 {
+    font-size: 30px;
+}
+
+.addinfoframe1 p {
+    font-size: 23.99px;
+}
+
+.addinfoframe2 h3 {
+    font-size: 30px;
+}
+
+.addinfoframe2 p {
+    font-size: 23.99px;
+}
+
+.addinfoframe3 h3 {
+    font-size: 30px;
+}
+
+.addinfoframe3 p {
+    font-size: 23.99px;
+}
+
+}

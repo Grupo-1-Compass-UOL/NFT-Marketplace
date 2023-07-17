@@ -1,0 +1,175 @@
+.TrendingCollection {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    text-decoration: none;
+}
+
+.sectionheadline {
+    display: flex;
+    width: 89%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.CollectionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 28rem;
+    text-decoration: none;
+}
+
+.collectionTablet {
+    display: none;
+}
+
+.collectionDesktop {
+    display: none;
+}
+
+.PhotosNumbers {
+    align-self: stretch;
+}
+
+.PhotosNumbers img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+
+.PhotosNumbers img:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+.Frame {
+    display: flex;
+    gap: 15px;
+    width: 27.5rem;
+    height: 8rem;
+    margin-top: 1rem;
+
+}
+
+.Frame p {
+    display: flex;
+    height: 0px;
+    width: 2rem;
+    padding: 48px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+}
+
+.Frame p:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 200ms;
+}
+
+.textframe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.textframe h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.textframe p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 140%;
+}
+
+@media screen and (min-width: 819px) {
+    .sectionheadline {
+        display: flex;
+        width: 690px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-left: 2.5rem;
+    }
+    .collectionTablet  {
+        margin-left: 27rem;
+        margin-top: -39rem;
+        display: block;
+    }
+    
+    .CollectionCard {
+        display: flex;
+        width: 330px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        flex-shrink: 0;
+        margin-top: 2.5rem;
+    }
+    .collectionTablet  .Frame p {
+        position: absolute;
+        padding: 48px;
+        margin-left: 17.3rem;
+    }
+
+    .Frame {
+        display: flex;
+        gap:15px;
+        width: 100%;
+        height: 8rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .sectionheadline {
+        display: flex;
+        width: 1046px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-left: 2.5rem;
+        text-decoration: none;
+    }
+    .collectionDesktop {
+        margin-left: 53rem;
+        margin-top: -39rem;
+        display: block;
+        text-decoration: none;
+    }
+    .CollectionCard {
+        width: 26rem;
+    }
+
+    .Frame p{
+        height: 8rem;
+    }
+    .Frame {
+        gap: 5px;
+        width: 25.5rem;
+    }
+
+    
+}
