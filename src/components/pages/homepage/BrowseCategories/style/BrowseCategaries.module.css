@@ -92,3 +92,38 @@
     flex-direction: column;
     gap: 20px;
 }
+
+@media screen and (min-width: 819px) {
+    .BrowseCategories__table__desktop{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .BrowseCategories__table__desktop2{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .BrowseCategories {
+        width: 95%;
+        display: flex;
+        padding: 40px 0px;
+        flex-direction: column;
+        gap: 40px;
+        align-self: stretch;
+        background-color: red;
+    }
+    .BrowseCategories__img {
+        display: flex;
+        width: 315px;
+        height: 918px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        background-color: aqua;
+        margin-left: 7rem;
+    }
+    
+}
