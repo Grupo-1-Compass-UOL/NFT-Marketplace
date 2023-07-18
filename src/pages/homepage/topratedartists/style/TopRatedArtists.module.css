@@ -4,9 +4,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
-    color: var(--white, #FFF);
-    font-family: Work Sans;
-
 }
 
 .SectionHeadlineButton {
@@ -23,8 +20,6 @@
     font-weight: 600;
     line-height: 140%;
     text-transform: capitalize;
-    color: var(--white, #FFF);
-    font-family: Work Sans;
 }
 
 .SectionHeadlinebuttontext p {
@@ -32,8 +27,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
-    color: var(--white, #FFF);
-    font-family: Work Sans;
 }
 
 .artistCard {
@@ -45,6 +38,9 @@
     border-radius: 20px;
     margin-left: 2rem;
     background: #3B3B3B;
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    text-decoration: none;
 
 }
 
