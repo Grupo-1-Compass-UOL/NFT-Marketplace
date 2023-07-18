@@ -1,68 +1,180 @@
-.NFTHighLightContainer{
-    width: 100%;
-    z-index: 10000;
-    position: relative;
+.NFTHighLightContainer {
+    width: 375px;
+    height: 590px;
+    display: flex;
+    padding: 120px 0px 40px 0px;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-.MagicMashrooms{
-        width: 100%;
+.ArtistCard {
+    display: flex;
+    width: 151px;
+    height: 44px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: #3B3B3B;
 }
 
-.versionMobile{
-  display: none;
-  position: absolute;
-  z-index: 1;
-  top: 80px;
-  right: 50px;
-
-}
-.h1 {   
-    font: 900 50px arial;
+.ArtistCard p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
 }
 
-.btnMashrooms{
-    width: 200px;
-    height: 50px;
-    background-color: aliceblue;
-    border-radius: 30px;
-    border: solid rgba(0, 0, 0, 0.659);
-    color: rgb(28, 7, 7);
-    font-size: 20px;
-    font-weight: 200;
+.NFTArtist {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 315px;
+    height: 430px;
+    gap: 30px;
+}
 
+.NFTArtist h3 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
 }
-.btnMashrooms:hover{
-    background-color: rgb(255, 171, 255);
+
+.styleNumber h3 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
 }
-.Mobile{
-    position: relative;
-  
+
+.styleNumber p {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
 }
-.effectPurple{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, transparent 40%, rgba(138, 43, 226, 0.7));
+
+.AuctionTimer {
+    width: 310px;
+    height: 144px;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: rgba(59, 59, 59, 0.50);
+    backdrop-filter: blur(5px);
+}
+
+.AuctionTimer p {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.Timer h4 {
+    color: var(--text, #FFF);
+    font-family: Space Mono;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.Timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.btnNFT {
+    border-radius: 20px;
+    background: var(--text, #FFF);
+    display: flex;
+    width: 315px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    color: var(--background, #2B2B2B);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border: none;
+}
+
+.TimerDesktop {
     display: none;
 }
-@media (max-width: 768px) {
-    .versionMobile{
-     display: flex;
-  
-     
-    }
-    .effectPurple{
-        display: flex;
-    }
-  }
 
-  @media (max-width: 650px) {
-    .versionMobile{
-     display: none;
+
+@media (min-width: 768px) {
+    .NFTHighLightContainer {
+        width: 768px;
+        height: 630px;
+        padding: 360px 0px 60px 0px;
+        justify-content: center;
+        align-items: flex-end;
+        align-self: stretch;
     }
-    .effectPurple{
-        display: flex;
+
+    .TimerDesktop {
+        display: block;
     }
-  }
+
+    .TimerMobile {
+        display: none;
+    }
+
+    .AuctionTimer {
+        width: 295px;
+        flex-shrink: 0;
+    }
+
+    .btnNFT {
+        width: 198px;
+    }
+
+    .NFTArtist {
+        width: 375px;
+        height: 210px;
+    }
+
+    @media (min-width: 1024px) {
+        .NFTArtist {
+            display: none;
+        }
+
+        .TimerDesktop {
+            display: none;
+        }
+    }
+
+    .NFTHighLightContainer {
+        transition: opacity 0.5s ease-in-out;
+    }
+}

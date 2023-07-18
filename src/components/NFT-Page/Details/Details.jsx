@@ -1,6 +1,5 @@
-import React from 'react' 
+import React from 'react'
 import classes from './details.module.css'
-import IconWorld from '../../../assets/images/img/iconWorld'
 
 
 
@@ -8,17 +7,17 @@ const Details = () => {
 
   return (
     <>
-    <h5 className={classes.h5}>Details</h5>
-    <div className={classes.details}>
+      <h5 className={classes.h5}>Details</h5>
+      <div className={classes.details}>
         <a href="#">
-            <IconWorld/> 
-            <span>View on Etherscan</span>
+          <IconWorld />
+          <span>View on Etherscan</span>
         </a>
-        <a href="#"> 
-            <IconWorld/>
-        <span>View Original</span>
+        <a href="#">
+          <IconWorld />
+          <span>View Original</span>
         </a>
-    </div>
+      </div>
     </>
   )
 }
