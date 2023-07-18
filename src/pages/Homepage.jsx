@@ -5,6 +5,8 @@ import TopRatedArtists from './homepage/topratedartists/TopRatedArtists';
 import BrowseCategories from './homepage/BrowseCategories/BrowseCategories';
 import SubscribeWidget from './homepage/SubscribeWidget/SubscribeWidget';
 import NFTHighLight from './homepage/NFTHighLight/NFTHighLight';
+import DiscoverMore from './homepage/DiscoverMore/DiscoverMore'
+import Works from './homepage/Works/Works';
 
 
 function Homepage() {
@@ -14,7 +16,9 @@ function Homepage() {
       <TrendingCollection />
       <TopRatedArtists />
       <BrowseCategories />
-      <NFTHighLight/>
+      <DiscoverMore />
+      <NFTHighLight />
+      <Works />
       <SubscribeWidget />
     </>
   )

@@ -114,7 +114,8 @@
     border: none;
     margin-left: 1rem;
 }
-.btnheadlinesubhead button:hover{
+
+.btnheadlinesubhead button:hover {
     cursor: pointer;
     transform: scale(0.9);
     transition: 200ms;
@@ -189,7 +190,7 @@
 }
 
 
-@media screen and (min-width: 819px) {
+@media screen and (min-width: 764px) {
     .herosection {
         display: flex;
         padding: 80px 0px;
@@ -288,10 +289,11 @@
         gap: 50px;
         align-self: stretch;
     }
+
     .box .highlightedNFT {
         margin-left: 5rem;
         margin-top: 0rem;
-        
+
     }
 }
 
@@ -305,7 +307,7 @@
         gap: 30px;
         align-self: stretch;
     }
-    
+
     .textframe {
         display: flex;
         padding: 0 30px;
@@ -314,7 +316,7 @@
         gap: 10px;
         width: 100%;
         align-self: stretch;
-    
+
     }
 
     .textframe h1 {
@@ -323,9 +325,9 @@
         flex-direction: column;
         justify-content: center;
         flex: 1 0 0;
-    font-size: 67px;
+        font-size: 67px;
     }
-    
+
     .textframe p {
         align-self: stretch;
         width: 50%;
@@ -335,69 +337,70 @@
 
 
 
-.box .highlightedNFT {
-    align-items: center;
-    background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
-    background-position: 50% 50%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    width: 120%;
-    height: 470px;
-    margin-left: 8rem;
-    margin-top: -13rem;
-    
-}
+    .box .highlightedNFT {
+        align-items: center;
+        background-image: url(https://cdn.animaapp.com/projects/6357ce7c8a65b2f16659918c/files/heroanimationtransparentbck-2.gif);
+        background-position: 50% 50%;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        width: 120%;
+        height: 470px;
+        margin-left: 8rem;
+        margin-top: -13rem;
 
-.btnheadlinesubhead button {
-    display: flex;
-    width: 225px;
-    height: 60px;
-    padding: 0px 50px;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    color: #FFF;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 140%;
-    margin-left: 0rem;
-    margin-top: -11rem;
-}
+    }
 
-.addinfo {
-    width: 420px;
-    margin-left: 2rem;
-    margin-top: -9rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 50px;
-    align-self: stretch;
-}
-.addinfoframe1 h3 {
-    font-size: 30px;
-}
+    .btnheadlinesubhead button {
+        display: flex;
+        width: 225px;
+        height: 60px;
+        padding: 0px 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        margin-left: 0rem;
+        margin-top: -11rem;
+    }
 
-.addinfoframe1 p {
-    font-size: 23.99px;
-}
+    .addinfo {
+        width: 420px;
+        margin-left: 2rem;
+        margin-top: -9rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        align-self: stretch;
+    }
 
-.addinfoframe2 h3 {
-    font-size: 30px;
-}
+    .addinfoframe1 h3 {
+        font-size: 30px;
+    }
 
-.addinfoframe2 p {
-    font-size: 23.99px;
-}
+    .addinfoframe1 p {
+        font-size: 23.99px;
+    }
 
-.addinfoframe3 h3 {
-    font-size: 30px;
-}
+    .addinfoframe2 h3 {
+        font-size: 30px;
+    }
 
-.addinfoframe3 p {
-    font-size: 23.99px;
-}
+    .addinfoframe2 p {
+        font-size: 23.99px;
+    }
+
+    .addinfoframe3 h3 {
+        font-size: 30px;
+    }
+
+    .addinfoframe3 p {
+        font-size: 23.99px;
+    }
 
 }

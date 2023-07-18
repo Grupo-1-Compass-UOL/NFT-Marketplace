@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './details.module.css'
+import IconWorld from '../../../assets/images/img/iconWorld'
 
 
 

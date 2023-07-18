@@ -104,7 +104,7 @@
     line-height: 140%;
 }
 
-@media screen and (min-width: 819px) {
+@media screen and (min-width: 834px) {
     .sectionheadline {
         display: flex;
         width: 690px;
@@ -113,12 +113,13 @@
         gap: 10px;
         margin-left: 2.5rem;
     }
-    .collectionTablet  {
+
+    .collectionTablet {
         margin-left: 27rem;
         margin-top: -39rem;
         display: block;
     }
-    
+
     .CollectionCard {
         display: flex;
         width: 330px;
@@ -128,7 +129,8 @@
         flex-shrink: 0;
         margin-top: 2.5rem;
     }
-    .collectionTablet  .Frame p {
+
+    .collectionTablet .Frame p {
         position: absolute;
         padding: 48px;
         margin-left: 17.3rem;
@@ -136,14 +138,14 @@
 
     .Frame {
         display: flex;
-        gap:15px;
+        gap: 15px;
         width: 100%;
         height: 8rem;
         margin-top: 1rem;
     }
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1000px) {
     .sectionheadline {
         display: flex;
         width: 1046px;
@@ -153,23 +155,26 @@
         margin-left: 2.5rem;
         text-decoration: none;
     }
+
     .collectionDesktop {
         margin-left: 53rem;
         margin-top: -39rem;
         display: block;
         text-decoration: none;
     }
+
     .CollectionCard {
         width: 26rem;
     }
 
-    .Frame p{
+    .Frame p {
         height: 8rem;
     }
+
     .Frame {
         gap: 5px;
         width: 25.5rem;
     }
 
-    
+
 }

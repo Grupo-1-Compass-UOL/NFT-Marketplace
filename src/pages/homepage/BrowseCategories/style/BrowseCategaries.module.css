@@ -93,7 +93,7 @@
     gap: 20px;
 }
 
-@media screen and (min-width: 819px) {
+@media screen and (min-width: 764px) {
     .BrowseCategories__table__desktop {
         display: flex;
         flex-direction: row;
@@ -132,7 +132,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
     .BrowseCategories {
         width: 95%;
         display: flex;

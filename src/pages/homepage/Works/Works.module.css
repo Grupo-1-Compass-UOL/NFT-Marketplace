@@ -1,0 +1,198 @@
+.works {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.Headline {
+    display: flex;
+    width: 315px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Headline h4 {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.Headline p {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.infoCard {
+    display: flex;
+    width: 315px;
+    height: 157px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--background-secondary, #3B3B3B);
+}
+
+.CardRow {
+    display: flex;
+    width: 315px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.CardDetails {
+    display: flex;
+    width: 155px;
+    height: 117px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.CardDetails h6 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.CardDetails p {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.imgContainer {
+    width: 100px;
+    height: 100px;
+}
+
+.SizeImage {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+@media (min-width: 764px) {
+    .Headline {
+        width: 690px;
+    }
+
+    .CardRow {
+        width: 690px;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .infoCard {
+        display: flex;
+        width: 210px;
+        height: 337px;
+        padding: 10px 20px 30px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imgContainer {
+        width: 160px;
+        height: 160px;
+    }
+
+    .SizeImage {
+        width: 160px;
+        height: 160px;
+    }
+
+    .CardDetails p {
+        text-align: center;
+    }
+
+    .CardDetails {
+        width: 170px;
+        height: 100px;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .Headline {
+        width: 1050px;
+        height: 91px;
+    }
+
+    .Headline h4 {
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .Headline p {
+        text-align: center;
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .CardRow {
+        width: 1050px;
+        height: 439px;
+    }
+
+    .works {
+        padding: 80px 0px;
+        gap: 48px;
+    }
+
+    .infoCard {
+        width: 330px;
+        height: 439px;
+        padding: 10px 30px 30px 30px;
+    }
+
+    .CardDetails {
+        width: 270px;
+        height: 129px;
+    }
+
+    .CardDetails h6 {
+        font-size: 22px;
+    }
+
+    .CardDetails p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .SizeImage {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .imgContainer {
+        width: 250px;
+        height: 250px;
+    }
+
+}
