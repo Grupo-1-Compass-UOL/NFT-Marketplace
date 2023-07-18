@@ -1,0 +1,180 @@
+.Headline {
+    display: flex;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.SubHeadline {
+    display: flex;
+    width: 315px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.SubHeadlineText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--white, #FFF);
+
+}
+
+.SubHeadlineText h4 {
+    font-family: Work Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.SubHeadlineText p {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.inputMarketplace {
+    display: flex;
+    width: 315px;
+    height: 60px;
+    padding: 12px 0px;
+    color: #858584;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--background-secondary, #3B3B3B);
+    background-color: #2B2B2B;
+    outline: none;
+}
+
+.inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputMarketplace {
+    padding-left: 20px;
+}
+
+.searchIcon {
+    position: absolute;
+    color: gray;
+    right: 5%;
+    width: 24px;
+    height: 24px;
+}
+
+.MarketplaceSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TabBar {
+    display: flex;
+    width: 315px;
+    height: 60px;
+    font-size: 16px;
+    align-items: flex-start;
+}
+
+.CardSection {
+    display: grid;
+    padding: 40px 0px;
+
+}
+
+.CardRow {
+    width: 315px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    grid-gap: 30px;
+}
+
+.CardDisplay {
+    display: none;
+}
+
+.CardDisplay2 {
+    display: none;
+}
+
+@media screen and (min-width: 834px) {
+
+    .SubHeadlineText h4 {
+        font-size: 38px;
+        line-height: 120%;
+    }
+
+    .SubHeadline .Headline {
+        padding: 60px 0px;
+    }
+
+    .TabBar,
+    .inputMarketplace {
+        width: 680px;
+    }
+
+    .CardDisplay {
+        display: block;
+    }
+
+
+    .SubHeadline {
+        width: 680px;
+    }
+
+    .CardRow {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 690px;
+    }
+
+}
+
+@media screen and (min-width: 1080px) {
+    .SubHeadlineText h4 {
+        font-size: 51px;
+        line-height: 110%;
+    }
+
+    .SubHeadlineText p {
+        font-size: 22px;
+        line-height: 160%;
+    }
+
+    .CardRow {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1050px;
+    }
+
+    .TabBar {
+        width: 1050px;
+        font-size: 22px;
+    }
+
+    .inputMarketplace {
+        width: 1050px;
+    }
+
+    .SubHeadline {
+        width: 1050px;
+    }
+
+    .CardDisplay2 {
+        display: block;
+    }
+}
